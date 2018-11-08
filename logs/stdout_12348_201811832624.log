@@ -1,0 +1,150 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: D:\Xamarin\BBCWebAPI\BBCWebAPI
+Now listening on: http://127.0.0.1:3947
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/  
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "ShowLoginPage", controller = "Login"}. Executing action BBCWebAPI.Controllers.UI.LoginController.ShowLoginPage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.LoginController.ShowLoginPage (BBCWebAPI) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.LoginController.ShowLoginPage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.8017ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/Login.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/Login.cshtml executed in 380.1771ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.LoginController.ShowLoginPage (BBCWebAPI) in 572.7647ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1028.2394ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "ShowLoginPage", controller = "Login"}. Executing action BBCWebAPI.Controllers.UI.LoginController.ShowLoginPage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.LoginController.ShowLoginPage (BBCWebAPI) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.LoginController.ShowLoginPage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0299ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/Login.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/Login.cshtml executed in 2.1774ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.LoginController.ShowLoginPage (BBCWebAPI) in 3.3527ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4.9111ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/login/vendor/css-hamburgers/hamburgers.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/login/fonts/iconic/css/material-design-iconic-font.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/login/vendor/animate/animate.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/login/vendor/animsition/css/animsition.min.css  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\fonts\font-awesome-4.7.0\css\font-awesome.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 32.7991ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/login/vendor/select2/select2.min.css  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/vendor/css-hamburgers/hamburgers.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\vendor\css-hamburgers\hamburgers.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 52.1589ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/vendor/animate/animate.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\vendor\animate\animate.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/vendor/animsition/css/animsition.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\vendor\animsition\css\animsition.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 46.8442ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 47.2325ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/fonts/iconic/css/material-design-iconic-font.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\fonts\iconic\css\material-design-iconic-font.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 78.2389ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/vendor/select2/select2.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\vendor\select2\select2.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 51.0981ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/login/css/util.css  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/css/util.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\css\util.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 50.38ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/login/images/logo.png  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/images/logo.png'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\images\logo.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 3.1302ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/login/fonts/poppins/Poppins-Bold.ttf  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/login/fonts/poppins/Poppins-Medium.ttf  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/login/fonts/poppins/Poppins-Regular.ttf  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/fonts/poppins/Poppins-Medium.ttf'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\fonts\poppins\Poppins-Medium.ttf'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 45.4516ms 200 application/x-font-ttf
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/fonts/poppins/Poppins-Bold.ttf'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\fonts\poppins\Poppins-Bold.ttf'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 55.3548ms 200 application/x-font-ttf
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/login/fonts/poppins/Poppins-SemiBold.ttf  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/fonts/poppins/Poppins-Regular.ttf'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\fonts\poppins\Poppins-Regular.ttf'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 43.188ms 200 application/x-font-ttf
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/fonts/poppins/Poppins-SemiBold.ttf'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\fonts\poppins\Poppins-SemiBold.ttf'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 89.4603ms 200 application/x-font-ttf
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/login/images/icons/favicon.ico  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/images/icons/favicon.ico'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\images\icons\favicon.ico'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 15.7799ms 200 image/x-icon
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "ShowLoginPage", controller = "Login"}. Executing action BBCWebAPI.Controllers.UI.LoginController.ShowLoginPage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.LoginController.ShowLoginPage (BBCWebAPI) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.LoginController.ShowLoginPage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0123ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/Login.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/Login.cshtml executed in 1.8851ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.LoginController.ShowLoginPage (BBCWebAPI) in 2.801ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 7.4527ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "ShowLoginPage", controller = "Login"}. Executing action BBCWebAPI.Controllers.UI.LoginController.ShowLoginPage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.LoginController.ShowLoginPage (BBCWebAPI) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.LoginController.ShowLoginPage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 0.0098ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/Login.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/Login.cshtml executed in 1.2102ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.LoginController.ShowLoginPage (BBCWebAPI) in 1.5382ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1.952ms 200 text/html; charset=utf-8

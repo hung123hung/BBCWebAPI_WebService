@@ -1,0 +1,122 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: D:\Xamarin\BBCWebAPI\BBCWebAPI
+Now listening on: http://127.0.0.1:15444
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DEBUG http://localhost:3000/  0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/HomePage  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 51.8436ms 200 
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "HomePage", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) with arguments () - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (263ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2818.8734ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/HomePage.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/HomePage.cshtml executed in 294.4936ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) in 3526.6106ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4000.8588ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/HomePage?id=6M%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "HomePage", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) with arguments () - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (247ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 258.6257ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/HomePage.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/HomePage.cshtml executed in 5.2929ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) in 283.1929ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 302.0867ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/HomePage?id=6MGB%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "HomePage", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) with arguments () - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (249ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 268.9455ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/HomePage.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/HomePage.cshtml executed in 11.9164ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) in 305.3369ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 336.8922ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/HomePage?id=6M%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "HomePage", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) with arguments () - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (246ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 263.7581ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/HomePage.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/HomePage.cshtml executed in 9.6638ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) in 296.2001ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 314.6899ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/HomePage?id=6M%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "HomePage", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) with arguments () - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (246ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 254.3443ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/HomePage.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/HomePage.cshtml executed in 5.8689ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) in 275.232ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 294.1549ms 200 text/html; charset=utf-8

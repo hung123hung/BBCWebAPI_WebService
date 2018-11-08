@@ -1,0 +1,92 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: D:\Xamarin\BBCWebAPI\BBCWebAPI
+Now listening on: http://127.0.0.1:12996
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DEBUG http://localhost:3000/  0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/HomePage  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/api/Topics  
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 75.616ms 200 
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "GetTopics", controller = "Topics"}. Executing action BBCWebAPI.Controllers.TopicsController.GetTopics (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "HomePage", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 7.2729ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/HomePage/HomePage.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/HomePage/HomePage.cshtml executed in 236.0218ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) in 370.9099ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 847.8364ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/bower_components/Ionicons/css/ionicons.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/bower_components/bootstrap/dist/css/bootstrap.min.css  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.TopicsController.GetTopics (BBCWebAPI) - Validation state: Valid
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/dist/css/skins/skin-blue.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/bower_components/font-awesome/css/font-awesome.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 20.3617ms 404 
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.TopicsController.GetTopics (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 8.1847ms.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 21.3778ms 404 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 25.9503ms 404 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/bower_components/jquery/dist/jquery.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/dist/css/AdminLTE.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 12.0949ms 404 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 9.2537ms 404 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/bower_components/bootstrap/dist/js/bootstrap.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/dist/img/avatarAdmin.jpg  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/dist/js/adminlte.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 97.0283ms 404 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 231.9682ms 404 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 296.3075ms 404 
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[BBCWebAPI.Models.Topic, BBCWebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 308.7387ms 404 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/bower_components/bootstrap/dist/js/bootstrap.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 145.4645ms 404 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/dist/js/adminlte.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 16.6477ms 404 
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (223ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.TopicsController.GetTopics (BBCWebAPI) in 3896.2315ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 4341.8039ms 200 application/json; charset=utf-8

@@ -1,0 +1,289 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: D:\Xamarin\BBCWebAPI\BBCWebAPI
+Now listening on: http://127.0.0.1:23622
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DEBUG http://localhost:4000/  0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/HomePage  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/api/Lessons  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 162.4778ms 200 
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "HomePage", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "GetLessons", controller = "Lessons"}. Executing action BBCWebAPI.Controllers.LessonsController.GetLessons (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.LessonsController.GetLessons (BBCWebAPI) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.LessonsController.GetLessons (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 0.9027ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) with arguments (, ) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Infrastructure.ObjectResultExecutor[1]
+      Executing ObjectResult, writing value of type 'Microsoft.EntityFrameworkCore.Internal.InternalDbSet`1[[BBCWebAPI.Models.Lesson, BBCWebAPI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (798ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1,970ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [l].[ID], [l].[Actor], [l].[CreatedDate], [l].[FileURLDowload], [l].[FileURLOnline], [l].[IDTP], [l].[ImageURL], [l].[Name], [l].[Sumary], [l].[Transcript], [l].[UpdatedDate], [l].[Vocabulary], [l].[Year]
+      FROM [Lesson] AS [l]
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred in the database while iterating the results of a query for context type 'BBCWebAPI.Data.DataContext'.
+      System.InvalidOperationException: An exception occurred while reading a database value for property 'Lesson.CreatedDate'. The expected type was 'System.DateTime' but the actual value was null. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+         at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer& valueBuffer, Int32 index, IPropertyBase property)
+         --- End of inner exception stack trace ---
+         at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.ThrowReadValueException[TValue](Exception exception, Object value, IPropertyBase property)
+         at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer& valueBuffer, Int32 index, IPropertyBase property)
+         at lambda_method(Closure , MaterializationContext )
+         at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.UnbufferedEntityShaper`1.Shape(QueryContext queryContext, ValueBuffer& valueBuffer)
+         at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+         at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+         at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+         at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+         at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+System.InvalidOperationException: An exception occurred while reading a database value for property 'Lesson.CreatedDate'. The expected type was 'System.DateTime' but the actual value was null. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer& valueBuffer, Int32 index, IPropertyBase property)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.ThrowReadValueException[TValue](Exception exception, Object value, IPropertyBase property)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer& valueBuffer, Int32 index, IPropertyBase property)
+   at lambda_method(Closure , MaterializationContext )
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.UnbufferedEntityShaper`1.Shape(QueryContext queryContext, ValueBuffer& valueBuffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.LessonsController.GetLessons (BBCWebAPI) in 8897.2072ms
+fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: An exception occurred while reading a database value for property 'Lesson.CreatedDate'. The expected type was 'System.DateTime' but the actual value was null. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer& valueBuffer, Int32 index, IPropertyBase property)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.ThrowReadValueException[TValue](Exception exception, Object value, IPropertyBase property)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer& valueBuffer, Int32 index, IPropertyBase property)
+   at lambda_method(Closure , MaterializationContext )
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.UnbufferedEntityShaper`1.Shape(QueryContext queryContext, ValueBuffer& valueBuffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter.WriteObject(TextWriter writer, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+warn: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[2]
+      The response has already started, the error page middleware will not be executed.
+fail: Microsoft.AspNetCore.Server.Kestrel[13]
+      Connection id "0HLI5HD9QJM0Q", Request id "0HLI5HD9QJM0Q:00000001": An unhandled exception was thrown by the application.
+System.InvalidOperationException: An exception occurred while reading a database value for property 'Lesson.CreatedDate'. The expected type was 'System.DateTime' but the actual value was null. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer& valueBuffer, Int32 index, IPropertyBase property)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.ThrowReadValueException[TValue](Exception exception, Object value, IPropertyBase property)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer& valueBuffer, Int32 index, IPropertyBase property)
+   at lambda_method(Closure , MaterializationContext )
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.UnbufferedEntityShaper`1.Shape(QueryContext queryContext, ValueBuffer& valueBuffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeList(JsonWriter writer, IEnumerable values, JsonArrayContract contract, JsonProperty member, JsonContainerContract collectionContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.SerializeValue(JsonWriter writer, Object value, JsonContract valueContract, JsonProperty member, JsonContainerContract containerContract, JsonProperty containerProperty)
+   at Newtonsoft.Json.Serialization.JsonSerializerInternalWriter.Serialize(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.SerializeInternal(JsonWriter jsonWriter, Object value, Type objectType)
+   at Newtonsoft.Json.JsonSerializer.Serialize(JsonWriter jsonWriter, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter.WriteObject(TextWriter writer, Object value)
+   at Microsoft.AspNetCore.Mvc.Formatters.JsonOutputFormatter.WriteResponseBodyAsync(OutputFormatterWriteContext context, Encoding selectedEncoding)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultAsync(IActionResult result)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResultFilterAsync[TFilter,TFilterAsync]()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResultExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.ResultNext[TFilter,TFilterAsync](State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeResultFilters()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Server.IISIntegration.IISMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.ProcessRequests[TContext](IHttpApplication`1 application)
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 9612.2432ms 200 application/json; charset=utf-8
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (3,088ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [lesson].[ID], [lesson].[Actor], [lesson].[CreatedDate], [lesson].[FileURLDowload], [lesson].[FileURLOnline], [lesson].[IDTP], [lesson].[ImageURL], [lesson].[Name], [lesson].[Sumary], [lesson].[Transcript], [lesson].[UpdatedDate], [lesson].[Vocabulary], [lesson].[Year]
+      FROM [Lesson] AS [lesson]
+      WHERE [lesson].[IDTP] = N'6M'
+fail: Microsoft.EntityFrameworkCore.Query[10100]
+      An exception occurred in the database while iterating the results of a query for context type 'BBCWebAPI.Data.DataContext'.
+      System.InvalidOperationException: An exception occurred while reading a database value for property 'Lesson.CreatedDate'. The expected type was 'System.DateTime' but the actual value was null. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+         at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer& valueBuffer, Int32 index, IPropertyBase property)
+         --- End of inner exception stack trace ---
+         at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.ThrowReadValueException[TValue](Exception exception, Object value, IPropertyBase property)
+         at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer& valueBuffer, Int32 index, IPropertyBase property)
+         at lambda_method(Closure , MaterializationContext )
+         at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.UnbufferedEntityShaper`1.Shape(QueryContext queryContext, ValueBuffer& valueBuffer)
+         at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+         at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+         at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+         at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+         at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+System.InvalidOperationException: An exception occurred while reading a database value for property 'Lesson.CreatedDate'. The expected type was 'System.DateTime' but the actual value was null. ---> System.NullReferenceException: Object reference not set to an instance of an object.
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer& valueBuffer, Int32 index, IPropertyBase property)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.ThrowReadValueException[TValue](Exception exception, Object value, IPropertyBase property)
+   at Microsoft.EntityFrameworkCore.Metadata.Internal.EntityMaterializerSource.TryReadValue[TValue](ValueBuffer& valueBuffer, Int32 index, IPropertyBase property)
+   at lambda_method(Closure , MaterializationContext )
+   at Microsoft.EntityFrameworkCore.Query.ExpressionVisitors.Internal.UnbufferedEntityShaper`1.Shape(QueryContext queryContext, ValueBuffer& valueBuffer)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.BufferlessMoveNext(DbContext _, Boolean buffer)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Query.Internal.QueryingEnumerable`1.Enumerator.MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider._TrackEntities[TOut,TIn](IEnumerable`1 results, QueryContext queryContext, IList`1 entityTrackingInfos, IList`1 entityAccessors)+MoveNext()
+   at Microsoft.EntityFrameworkCore.Query.Internal.LinqOperatorProvider.ExceptionInterceptor`1.EnumeratorExceptionInterceptor.MoveNext()
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) in 9746.8909ms
+fail: Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware[1]
+      An unhandled exception has occurred while executing the request.
+System.InvalidOperationException: Cannot return null from an action method with a return type of 'Microsoft.AspNetCore.Mvc.IActionResult'.
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.EnsureActionResultNotNull(ObjectMethodExecutor executor, IActionResult actionResult)
+   at Microsoft.AspNetCore.Mvc.Internal.ActionMethodExecutor.SyncActionResultExecutor.Execute(IActionResultTypeMapper mapper, ObjectMethodExecutor executor, Object controller, Object[] arguments)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeActionMethodAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeNextActionFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Rethrow(ActionExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker.InvokeInnerFilterAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeNextResourceFilter()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Rethrow(ResourceExecutedContext context)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeFilterPipelineAsync()
+   at Microsoft.AspNetCore.Mvc.Internal.ResourceInvoker.InvokeAsync()
+   at Microsoft.AspNetCore.Builder.RouterMiddleware.Invoke(HttpContext httpContext)
+   at Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware.Invoke(HttpContext context)
+   at Microsoft.AspNetCore.Diagnostics.DeveloperExceptionPageMiddleware.Invoke(HttpContext context)
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 10441.2638ms 500 text/html; charset=utf-8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

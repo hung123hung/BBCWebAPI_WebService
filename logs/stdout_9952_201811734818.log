@@ -1,0 +1,283 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: D:\Xamarin\BBCWebAPI\BBCWebAPI
+Now listening on: http://127.0.0.1:31819
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DEBUG http://localhost:3000/  0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/HomePage  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 75.0802ms 200 
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "HomePage", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) with arguments (, , ) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (405ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3011.1417ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/HomePage.cshtml.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (226ms) [Parameters=[@__topicID_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT [lesson].[ID], [lesson].[Actor], [lesson].[CreatedDate], [lesson].[FileURLDowload], [lesson].[FileURLOnline], [lesson].[IDTP], [lesson].[ImageURL], [lesson].[Name], [lesson].[Sumary], [lesson].[Transcript], [lesson].[UpdatedDate], [lesson].[Vocabulary], [lesson].[Year]
+      FROM [Lesson] AS [lesson]
+      WHERE [lesson].[IDTP] = @__topicID_0
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/HomePage.cshtml executed in 1094.2609ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) in 4641.2006ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 5322.1708ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/HomePage?lesssonID=d44b338e-48fd-4650-aca3-0828fb7cd01c%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "HomePage", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) with arguments (, , ) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (224ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 234.9594ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/HomePage.cshtml.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (224ms) [Parameters=[@__topicID_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT [lesson].[ID], [lesson].[Actor], [lesson].[CreatedDate], [lesson].[FileURLDowload], [lesson].[FileURLOnline], [lesson].[IDTP], [lesson].[ImageURL], [lesson].[Name], [lesson].[Sumary], [lesson].[Transcript], [lesson].[UpdatedDate], [lesson].[Vocabulary], [lesson].[Year]
+      FROM [Lesson] AS [lesson]
+      WHERE [lesson].[IDTP] = @__topicID_0
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/HomePage.cshtml executed in 248.4248ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) in 521.6565ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 561.3377ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/HomePage?lesssonID=d44b338e-48fd-4650-aca3-0828fb7cd01c%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "HomePage", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) with arguments (, , ) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (222ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 245.0564ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/HomePage.cshtml.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (222ms) [Parameters=[@__topicID_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT [lesson].[ID], [lesson].[Actor], [lesson].[CreatedDate], [lesson].[FileURLDowload], [lesson].[FileURLOnline], [lesson].[IDTP], [lesson].[ImageURL], [lesson].[Name], [lesson].[Sumary], [lesson].[Transcript], [lesson].[UpdatedDate], [lesson].[Vocabulary], [lesson].[Year]
+      FROM [Lesson] AS [lesson]
+      WHERE [lesson].[IDTP] = @__topicID_0
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/HomePage.cshtml executed in 245.8146ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) in 513.3782ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 534.0495ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/HomePage?topicID=6MGB&topicName=6%20MINUTE%20GRAMMAR%20BASIC  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "HomePage", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) with arguments (6MGB, 6 MINUTE GRAMMAR BASIC, ) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (222ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 253.2263ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/HomePage.cshtml.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (221ms) [Parameters=[@__topicID_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT [lesson].[ID], [lesson].[Actor], [lesson].[CreatedDate], [lesson].[FileURLDowload], [lesson].[FileURLOnline], [lesson].[IDTP], [lesson].[ImageURL], [lesson].[Name], [lesson].[Sumary], [lesson].[Transcript], [lesson].[UpdatedDate], [lesson].[Vocabulary], [lesson].[Year]
+      FROM [Lesson] AS [lesson]
+      WHERE [lesson].[IDTP] = @__topicID_0
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/HomePage.cshtml executed in 258.8628ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) in 547.0896ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 558.4907ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/HomePage?topicID=6M&topicName=6%20MINUTE%20ENGLISH  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "HomePage", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) with arguments (6M, 6 MINUTE ENGLISH, ) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (221ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 231.8583ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/HomePage.cshtml.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (224ms) [Parameters=[@__topicID_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT [lesson].[ID], [lesson].[Actor], [lesson].[CreatedDate], [lesson].[FileURLDowload], [lesson].[FileURLOnline], [lesson].[IDTP], [lesson].[ImageURL], [lesson].[Name], [lesson].[Sumary], [lesson].[Transcript], [lesson].[UpdatedDate], [lesson].[Vocabulary], [lesson].[Year]
+      FROM [Lesson] AS [lesson]
+      WHERE [lesson].[IDTP] = @__topicID_0
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/HomePage.cshtml executed in 236.3331ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) in 485.7468ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 499.5258ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/HomePage?lesssonID=d44b338e-48fd-4650-aca3-0828fb7cd01c%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "HomePage", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) with arguments (, , ) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (222ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 239.5959ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/HomePage.cshtml.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (222ms) [Parameters=[@__topicID_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT [lesson].[ID], [lesson].[Actor], [lesson].[CreatedDate], [lesson].[FileURLDowload], [lesson].[FileURLOnline], [lesson].[IDTP], [lesson].[ImageURL], [lesson].[Name], [lesson].[Sumary], [lesson].[Transcript], [lesson].[UpdatedDate], [lesson].[Vocabulary], [lesson].[Year]
+      FROM [Lesson] AS [lesson]
+      WHERE [lesson].[IDTP] = @__topicID_0
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/HomePage.cshtml executed in 238.6796ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) in 500.3358ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 520.6524ms 200 text/html; charset=utf-8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,11 @@
+﻿body {
+    font-weight: normal;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+.ellipsis {
+    max-width: 50px;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}

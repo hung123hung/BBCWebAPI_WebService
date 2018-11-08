@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAADwQHu0nECk+rzQk7QEg4ngAAAAACAAAAAAAQZgAAAAEAACAAAABur6fb3gUIfwI12qsaO2CPZBZMg/iNUIkOm0qvTq+HRwAAAAAOgAAAAAIAACAAAAClRecSxo71hxKJLI7Kjp/zdz2mCyqUIYhHbC5M9x0aJoAAAAAatrdYFQJWT9z4EwiJSnii+s+bAw16isbcoTB1tyvF3KdyrpbK6J9+FSlMzpCcceXCTKO+UEXZCbK2l2ZuDwYYeJk52BuJwCLH/KQh7Zcbyd92mPpVVm7/Ww9c1azlaib5QoAwid7130+zCRCm5FtsCgU9CxRlBeRqc42qrTGE0UAAAAD67tlDwYw6QS74/LE6O6SDcUkZZKgXFqfZ8a5KMUlzDvxgpRIxk0rRMKT5qzxaRWq+GvdvSW9hbRyJdDzUgwOP</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:bbcservername.database.windows.net,1433%3bInitial Catalog=BBCLearningEnglish%3bPersist Security Info=False%3bUser ID=xuantruc%3bPassword=TrucDit113%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+  <ItemGroup>
+    <EFMigrations Include="BBCWebAPI.Data.DataContext">
+      <Value>Server=tcp:bbcservername.database.windows.net,1433%3bInitial Catalog=BBCLearningEnglish%3bPersist Security Info=False%3bUser ID=xuantruc%3bPassword=TrucDit113%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
+    </EFMigrations>
+  </ItemGroup>
+</Project>

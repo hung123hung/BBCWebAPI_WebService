@@ -1,0 +1,52 @@
+﻿@using BBCWebAPI.Models;
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="~/components/css/Detail.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+</head>
+<body>
+    <div class="header">
+    </div>
+    <div class="w3-container">
+        <div class="w3-responsive">
+            <table class="w3-table-all">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>AudioURLOnline</th>
+                        <th>AudioURLDowload</th>
+                        <th>ImageURL</th>
+                        <th>Transcript</th>
+                        <th>Sumary</th>
+                        <th>Vocabulary</th>
+                        <th>Actor</th>
+                        <th>Edit</th>
+                        <th>Delete</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (Lesson lesson in ViewBag.listLessons)
+                    {
+                    <tr>
+                        <td>@lesson.Name</td>
+                        <td class="ellipsis">@lesson.FileURLOnline</td>
+                        <td class="ellipsis">@lesson.FileURLDowload</td>
+                        <td class="ellipsis">@lesson.ImageURL</td>
+                        <td class="ellipsis">@lesson.Transcript</td>
+                        <td class="ellipsis">@lesson.Sumary</td>
+                        <td class="ellipsis">@lesson.Vocabulary</td>
+                        <td class="ellipsis">@lesson.Actor</td>
+                        <td><img onclick="location.href='@Url.Action("EditLessonPage","Home",new { lessonID=lesson.ID.Trim()})'" src="~/components/images/edit.png"/></td>
+                        <td><img onclick="location.href='@Url.Action("HomePage",new { lesssonID=lesson.ID})'" src="~/components/images/delete.png" /></td>
+                    </tr>
+                    }
+
+                </tbody>
+            </table>
+        </div>
+    </div>
+
+</body>
+</html>

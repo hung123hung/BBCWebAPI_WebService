@@ -27,11 +27,7 @@ namespace BBCWebAPI.Controllers
         // GET: api/Topics
         [HttpGet]
         public IEnumerable<Topic> GetTopics()
-        {
-            //List<Topic> listTopic = new List<Topic>();
-            //string json = Newtonsoft.Json.JsonConvert.SerializeObject(_context.Topics.ToList(), Newtonsoft.Json.Formatting.Indented);
-            //listTopic = JsonConvert.DeserializeObject<List<Topic>>(json.Replace(@"\\", @"\"));
-            //return listTopic;
+        {   
             return _context.Topics;
         }
 

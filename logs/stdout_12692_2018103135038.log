@@ -1,0 +1,52 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: D:\Xamarin\BBCWebAPI\BBCWebAPI
+Now listening on: http://127.0.0.1:23436
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/HomePage  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DEBUG http://localhost:3000/  0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 98.9348ms 200 
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "HomePage", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.4007ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/HomePage/HomePage.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/HomePage/HomePage.cshtml executed in 111.9535ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) in 161.9657ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 763.4715ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/dist/js/adminlte.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/bower_components/jquery/dist/jquery.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/dist/img/avatarAdmin.jpg  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/bower_components/bootstrap/dist/js/bootstrap.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 40.3779ms 404 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 42.224ms 404 
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/bower_components/bootstrap/dist/js/bootstrap.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\bower_components\bootstrap\dist\js\bootstrap.min.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 133.9697ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/bower_components/jquery/dist/jquery.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\bower_components\jquery\dist\jquery.min.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 350.8548ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:3000/dist/js/adminlte.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 7.7585ms 404 

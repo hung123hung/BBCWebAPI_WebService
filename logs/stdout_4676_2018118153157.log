@@ -1,0 +1,753 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: D:\Xamarin\BBCWebAPI\BBCWebAPI
+Now listening on: http://127.0.0.1:16160
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DEBUG http://localhost:4000/  0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/HomePage  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 101.3923ms 200 
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "HomePage", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) with arguments (, ) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (264ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (700ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [lesson].[ID], [lesson].[Actor], [lesson].[CreatedDate], [lesson].[FileURLDowload], [lesson].[FileURLOnline], [lesson].[IDTP], [lesson].[ImageURL], [lesson].[Name], [lesson].[Sumary], [lesson].[Transcript], [lesson].[UpdatedDate], [lesson].[Vocabulary], [lesson].[Year]
+      FROM [Lesson] AS [lesson]
+      WHERE [lesson].[IDTP] = N'6M'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 4789.5933ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/HomePage.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/HomePage.cshtml executed in 244.4029ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) in 5529.2984ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 6590.392ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/HomePage/EditLessonPage?lessonID=9fc0b745-19c6-44d3-8a4b-b0e4db3de1fd  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "EditLessonPage", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.EditLessonPage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.EditLessonPage (BBCWebAPI) with arguments (, , 9fc0b745-19c6-44d3-8a4b-b0e4db3de1fd) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (237ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (693ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [lesson].[ID], [lesson].[Actor], [lesson].[CreatedDate], [lesson].[FileURLDowload], [lesson].[FileURLOnline], [lesson].[IDTP], [lesson].[ImageURL], [lesson].[Name], [lesson].[Sumary], [lesson].[Transcript], [lesson].[UpdatedDate], [lesson].[Vocabulary], [lesson].[Year]
+      FROM [Lesson] AS [lesson]
+      WHERE [lesson].[IDTP] = N'6M'
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (235ms) [Parameters=[@__lessonID_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(2) [lesson].[ID], [lesson].[Actor], [lesson].[CreatedDate], [lesson].[FileURLDowload], [lesson].[FileURLOnline], [lesson].[IDTP], [lesson].[ImageURL], [lesson].[Name], [lesson].[Sumary], [lesson].[Transcript], [lesson].[UpdatedDate], [lesson].[Vocabulary], [lesson].[Year]
+      FROM [Lesson] AS [lesson]
+      WHERE [lesson].[ID] = @__lessonID_0
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.HomeController.EditLessonPage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1461.3928ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/EditLessonPage.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/EditLessonPage.cshtml executed in 131.2267ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.EditLessonPage (BBCWebAPI) in 1616.0004ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1636.0769ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/components/css/Edit.css  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[6]
+      The file /components/css/Edit.css was not modified
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 41.4432ms 304 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:4000/HomePage/EditLessonPage/UpdateLesson application/x-www-form-urlencoded 8013
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "UpdateLesson", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.UpdateLesson (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.UpdateLesson (BBCWebAPI) with arguments (Is 'man flu' real?                                                                                  , 2017, http://howtotrain.info/FileStorage/6M/2017/6m_2017_man_flu.mp3, https://www.dropbox.com/s/d507meycrc82v93/6m_2017_perfect_santa.mp3?dl=1, http://howtotrain.info/FileStorage/6M/2017/6m_2017_man_flu.png, Note: This is not a word for word transcript
+      Dan
+      Hello and welcome to 6 Minute English. I'm Dan, and joining me today is Neil. Hi Neil.
+      Neil
+      Hi, everyone!
+      Dan
+      Bless you! Are you ok?
+      Neil
+      I think I'm coming down with something serious.
+      Dan
+      It's just a case of the sniffles.
+      Neil
+      The sniffles is an informal way of saying a cold or flu. It comes from the sniffing sound people make when they have a runny nose.
+      Dan
+      And a runny nose is when liquid mucus keeps leaking from our nose - usually when we are sick. I'm afraid you'll just have to soldier on Neil.
+      Neil
+      To soldier on means to continue despite difficulty. I'm dying! What's it about anyway?
+      Dan
+      It's about `man flu', and whether it's actually real, or just something men like to complain about. We'll give you 6 words and expressions - and, of course, our quiz question.
+      Neil
+      Alright, fire away.
+      Dan 
+      In a survey conducted by Nuts magazine that asked its readers how long they took to recover from a cold or flu, where women put an average of 1.5 days, what did men put? a) 1 day, b) 2 days or c) 3 days
+      Neil
+      I'm going to say 3 days. The threat of `man flu' is real.
+      Dan
+      Well, we'll find out later, but let's clarify. `Man flu' is the tendency that many people believe men have to complain about a minor illness, such as a cold or flu, and act as if they were suffering from something a lot more serious.
+      Neil
+      Yes. But science cannot say whether men do actually suffer more than women, or if men just tend to complain more.
+      Dan
+      Well, let's hear from this British couple about whether they think `man flu' is real or not.
+      Vox
+      British Man
+      Men definitely do suffer a lot more, I think, than women do when we get flu.
+      British Woman
+      Yeah, I'm not so convinced. I feel like they just complain more.
+      British Man
+      It wipes me out.
+      British Woman
+      I was ill recently and I just carried on and went to work and everything. And when Chris had got sick recently he was on the sofa and couldn't really do anything, so.
+      Dan
+      And it seems that it's not just in the UK. Listen to this BBC Journalist interviewing a woman from Europe.
+      Vox
+      BBC Journalist
+      You're from the Netherlands. Have you ever accused your boyfriend of having man flu?
+      Dutch woman
+      Oh, absolutely yes. Yeah.
+      BBC Journalist
+      What have you accused him of doing?
+      Dutch woman
+      .whining?
+      Neil
+      Whining is when someone complains repeatedly and often in an annoying way about something. So, there certainly seems to be something there.but nothing has been proven, right?
+      Dan
+      Well, a recent scientific study has indicated that there could be something to `man flu' after all. Doctor Kyle Sue, an assistant professor of family medicine at Memorial University of Newfoundland in Canada, has suggested that there could be a difference between men and women when it comes to respiratory diseases.
+      Neil
+      Respiratory meaning related to breathing. He says that there was already a lot of evidence from existing studies suggesting men experience worse, longer-lasting symptoms.
+      Dan
+      Symptoms are the feelings of illness caused by a disease. Listen to him explain why this is.
+      Doctor Kyle Sue
+      Memorial University, Newfoundland
+      It seems that the higher the testosterone levels, the lower the immune response to these types of infections, whereas the higher the oestrogen level, the stronger the immune response.
+      Neil
+      Testosterone and oestrogen are hormones that exist in both men and women. Testosterone is higher in males and oestrogen is higher in females. Dr. Sue's research suggests that the more oestrogen a person has, the better able they are to fight off the infection. That's it then! Man flu is real!
+      Dan
+      Hold your horses, Neil. There are two problems. First of all, the Royal college of GPs in the UK says that there is no such thing as `man flu'. And secondly, even Dr Sue admits that these results, including his own, are only `suggestive' and are not `definitive'.
+      Neil
+      So, basically he's saying that there is a suggestion that `man flu' exists, but the evidence so far cannot say for sure.
+      Dan
+      Exactly. More studies need to be done. But you know what we can be sure about? The answer to this week's quiz question. I asked you in a survey conducted by Nuts magazine that asked its readers how long they took to recover from a cold or flu, where women put an average of 1.5 days, what did men put? a) 1 day, b) 2 days or c) 3 days
+      Neil
+      And I said 3 days.
+      Dan
+      And you were right!
+      Neil
+      Good!
+      Dan
+      The men said they took twice as long to recover!
+      Neil
+      It must be all that manly testosterone. Let's review our vocabulary, shall we?
+      Dan
+      Our first was the sniffles. If you have the sniffles, you have a cold, informally speaking. What's the best cure for the sniffles Neil?
+      Neil
+      Stay in bed and sweat it out, my mum always said. Just make sure you have lots of tissues to deal with your runny nose. That's when a person's nose leaks mucus, usually because they are ill. Yuck!
+      Dan
+      Next we had soldier on. This phrasal verb means to continue despite difficulty. When was the last time you had to soldier on, Neil?
+      Neil
+      A few days ago when I went the whole day without eating any lunch! Then we had `man flu'. That's is the name given to the situation where a person, often a man, tends to complain and exaggerate a small illness such as a cold. Do you do that, Dan?
+      Dan
+      I'm sure my wife would say I do! Next we had whining. If you whine, you complain repeatedly and often in an annoying way.
+      Neil
+      Like my children did last time I didn't buy them ice-cream. And finally we had symptoms. These are the feelings of illness caused by a disease. What are the symptoms of flu, Dan?
+      Dan
+      A headache, aching muscles, and a fever. And that's the end of this 6 Minute English! Don't forget to check out our YouTube, Facebook, Twitter and Instagram pages. There you made it. You can collapse now.
+      Neil
+      Bye.
+      Dan
+      Bye!
+      , Dan,Neil,British Man,British Woman,BBC Journalist,Dutch woman,Doctor Kyle Sue, Can science prove the existence of 'man flu' or are men just big babies? Dan and Neil discuss all this and give you six useful items of vocabulary., the sniffles: a cold (informally)
+      runny nose: when a person's nose leaks mucus
+      soldier on: continue despite difficulty
+      man flu: the situation where a person, often a man, tends to complain and exaggerate a small illness such as a cold
+      whining: complaining repeatedly often in an annoying way
+      symptoms: feelings of illness caused by a disease
+      , ) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+warn: Microsoft.EntityFrameworkCore.Query[10103]
+      Query: '(from Lesson <generated>_1 in DbSet<Lesson> select [<generated>_1]).First()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1,667ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [l].[ID], [l].[Actor], [l].[CreatedDate], [l].[FileURLDowload], [l].[FileURLOnline], [l].[IDTP], [l].[ImageURL], [l].[Name], [l].[Sumary], [l].[Transcript], [l].[UpdatedDate], [l].[Vocabulary], [l].[Year]
+      FROM [Lesson] AS [l]
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.HomeController.UpdateLesson (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 1767.8152ms.
+info: Microsoft.AspNetCore.Mvc.RedirectToActionResult[1]
+      Executing RedirectResult, redirecting to /HomePage.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.UpdateLesson (BBCWebAPI) in 1830.0082ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1846.5074ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/HomePage  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "HomePage", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) with arguments (, ) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (233ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (834ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [lesson].[ID], [lesson].[Actor], [lesson].[CreatedDate], [lesson].[FileURLDowload], [lesson].[FileURLOnline], [lesson].[IDTP], [lesson].[ImageURL], [lesson].[Name], [lesson].[Sumary], [lesson].[Transcript], [lesson].[UpdatedDate], [lesson].[Vocabulary], [lesson].[Year]
+      FROM [Lesson] AS [lesson]
+      WHERE [lesson].[IDTP] = N'6M'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1310.2025ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/HomePage.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/HomePage.cshtml executed in 17.729ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) in 1350.7606ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1365.8566ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/HomePage/EditLessonPage?lessonID=d44b338e-48fd-4650-aca3-0828fb7cd01c  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "EditLessonPage", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.EditLessonPage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.EditLessonPage (BBCWebAPI) with arguments (, , d44b338e-48fd-4650-aca3-0828fb7cd01c) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (600ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (1,165ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [lesson].[ID], [lesson].[Actor], [lesson].[CreatedDate], [lesson].[FileURLDowload], [lesson].[FileURLOnline], [lesson].[IDTP], [lesson].[ImageURL], [lesson].[Name], [lesson].[Sumary], [lesson].[Transcript], [lesson].[UpdatedDate], [lesson].[Vocabulary], [lesson].[Year]
+      FROM [Lesson] AS [lesson]
+      WHERE [lesson].[IDTP] = N'6M'
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (463ms) [Parameters=[@__lessonID_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(2) [lesson].[ID], [lesson].[Actor], [lesson].[CreatedDate], [lesson].[FileURLDowload], [lesson].[FileURLOnline], [lesson].[IDTP], [lesson].[ImageURL], [lesson].[Name], [lesson].[Sumary], [lesson].[Transcript], [lesson].[UpdatedDate], [lesson].[Vocabulary], [lesson].[Year]
+      FROM [Lesson] AS [lesson]
+      WHERE [lesson].[ID] = @__lessonID_0
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.HomeController.EditLessonPage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2941.319ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/EditLessonPage.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/EditLessonPage.cshtml executed in 9.9836ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.EditLessonPage (BBCWebAPI) in 2980.9949ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2995.104ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:4000/HomePage/EditLessonPage/UpdateLesson application/x-www-form-urlencoded 7302
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "UpdateLesson", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.UpdateLesson (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.UpdateLesson (BBCWebAPI) with arguments (The perfect Santa  hoho                                                                , 2017, http://howtotrain.info/FileStorage/6M/2017/6m_2017_perfect_santa.mp3, https://www.dropbox.com/s/0dcpviciqg9nicc/6m_2017_man_flu.mp3?dl=1, http://howtotrain.info/FileStorage/6M/2017/6m_2017_perfect_santa.png, Note: This is not a word for word transcript
+      Neil
+      Hello and welcome to 6 Minute English. I'm Neil and joining me today is Dan who is looking very jolly. Dan
+      Of course I'm looking jolly - meaning happy and smiley; it's my favourite time of the year.
+      Neil
+      Ah yes, all that food, all those presents, all that fun. 
+      Dan
+      Forget the food and fun - Christmas is all about the presents!
+      Neil
+      I'm not sure that's quite the spirit - the real meaning of something
+      Dan
+      Well, Neil, I was actually talking about giving presents, not getting them.
+      Neil
+      Ah sorry, Dan, I misjudged you. As you enjoy giving presents so much, I'm very pleased to have you with me in this 6 Minute English - Our topic. What makes the perfect Santa? We'll have 6 items of vocabulary for you and, of course, our quiz question. Ready?
+      Dan
+      Hit me.
+      Neil
+      How many Santas are there in the world? a) 1,500, b) 15,000 or c) 15 million
+      Dan
+      I know there are a lot but 15 million must be wrong; 1,500 seems too few, so I'll g o for 15,000.
+      Neil
+      We'll see if you're right at the end of the programmer. Dan, you seem like a strong candidate for a job as Santa. Ever considered it?
+      Dan|I'd love to! A candidate is a person competing for a job.
+      Neil
+      And what do you think is a key part of being Santa - or Father Christmas as we also call him in the UK?
+      Dan
+      You've already mentioned being jolly.
+      Neil
+      I have. Let's listen to James Lovell, who runs a Santa school at his company Ministry of Fun in London. What does he say is the key?
+      James Lovell
+      A perfect 'ho ho ho!' is a key part of being a Father Christmas. It's a ho ho ho! And it needs to just reinforce the fact that you are the jolliest person on the planet. So I like to reach down into my tummy, tap it and with a big smile on my face g o ho ho hoooo! 
+      Neil 
+       The perfect ho ho ho! You need that to reinforce the fact you are the jolliest person in the world. 
+      Dan
+      To reinforce means to make something stronger. Ho ho ho! 
+      Neil
+      Wow, Dan! You're very convincing. Are you sure you've never done this before? 
+      Dan
+      I haven't but I want to. It feels good! Ho ho ho! 
+      Neil
+      I could be the ideal career move for you, Dan. But I bet it's not all fun. 
+      Dan
+      Hmm, maybe. I think there would be a lot of pressure to perform. Pressure is the feeling of worry you can get when you are expected to deal with a difficult situation. 
+      Neil
+      Yes, think of all the children you have to impress. Pressure indeed. Let's hear from James Lovell again, who runs a Santa school in London. 
+      James Lovell
+      Portraying Father Christmas is not an easy job because when you're dressed as Father Christmas, you have a huge responsibility to recreate the magic of the real Santa in every way. You need to look good, you need to have lots to say and you need to be incredibly jolly and you need to have magical eyes. 
+      Dan
+      So it seems I was right: portraying Father Christmas is not an easy job. Portraying meaning playing the part of - like an actor does. 
+      Neil
+      He says there's a huge responsibility to recreate the magic of the real Santa. To recreate means to make something exist again. 
+      Dan
+      All those kids expecting that magical moment - and it's all down to you as Santa! Hmm I'm beginning to have second thoughts about this career change.
+      Neil
+      Could you handle the pressure? 
+      Dan
+      I'm not sure I could! Portraying Father Christmas might be a challenge too far - despite my ho ho ho! 
+      Neil
+      Now it's time to find out the answer to our quiz question. I asked how many Santas there are in the world? a) 1,500, b) 15,000 or c) 15 million
+      Dan
+      I said b) 15,000
+      Neil
+      And you were. wrong! I'm afraid it was a trick question - there is, of course, only one Santa! 
+      Dan
+      Ahhh that's not fair! 
+      Neil
+      Sorry! Shall we have a recap of the vocabulary? 
+      Dan
+      Yes please - that would make me jolly again. 
+      Neil
+      Jolly, meaning happy and smiley. What makes you jolly, Dan? 
+      Dan
+      Christmas of course! Now Neil, I have to say, cheating me out of that quiz question was really not in the spirit of 6 Minute English. We are always nice to each other. 
+      Neil
+      Ah yes, you're probably right. Spirt here has the sense of something's real meaning. The spirit of 6 Minute English is friendly educational fun - not cheating your colleagues! 
+      Dan
+      Glad we've got that straight. Our next word is candidate. Until you made me think about how hard it is to be a good Santa, I thought I'd be a strong candidate for the job. 
+      Neil
+      A candidate is a person competing for a job. Next we had reinforce. 
+      Dan
+      Reinforce means to make something stronger. Repeating the vocabulary in 6 Minute English reinforces your ability to remember it! 
+      Neil
+      That's right - and it puts you under less pressure when you're speaking English if you have a good range of vocabulary. 
+      Dan
+      Pressure is the feeling of worry you can get when you are expected to deal with a difficult situation - like pretending to be Santa! Yes there's a lot of pressure involved in portraying someone else. 
+      Neil
+      Portraying, meaning playing the part of someone - like an actor does. It can be very difficult to get it right. 
+      Dan
+      Yep, it's a real skill to be able to recreate the look and character of another person. Recreate meaning to make something exist again. 
+      Neil
+      Well we'll try our best to recreate a positive learning experience for you all next time on 6 Minute English. Until then don't forget to check out our YouTube, Facebook, Twitter and Instagram pages. Goodbye! 
+      Dan
+      Goodbye!
+      , Neil,Dan,James Lovell, What qualities to you need to be the man who brings joy to millions of children around the world during the festive season?
+      Neil and Dan discuss what it takes to be the perfect Santa. You'll also learn six items of vocabulary.
+      , jolly: happy, smiley
+      spirit: something's real meaning
+      candidate: a person competing for a job
+      reinforce: make something stronger
+      pressure: the feeling of worry when a person gets when expected to deal with a difficult situation
+      portraying: playing the part of someone
+      , ) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (232ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [l].[ID], [l].[Actor], [l].[CreatedDate], [l].[FileURLDowload], [l].[FileURLOnline], [l].[IDTP], [l].[ImageURL], [l].[Name], [l].[Sumary], [l].[Transcript], [l].[UpdatedDate], [l].[Vocabulary], [l].[Year]
+      FROM [Lesson] AS [l]
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.HomeController.UpdateLesson (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 863.1457ms.
+info: Microsoft.AspNetCore.Mvc.RedirectToActionResult[1]
+      Executing RedirectResult, redirecting to /HomePage.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.UpdateLesson (BBCWebAPI) in 896.3558ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/HomePage  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "HomePage", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) with arguments (, ) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+fail: Microsoft.AspNetCore.Server.Kestrel[13]
+      Connection id "0HLI5HTD2N0KT", Request id "0HLI5HTD2N0KT:00000004": An unhandled exception was thrown by the application.
+System.InvalidOperationException: The connection does not support MultipleActiveResultSets.
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlInternalTransaction.Rollback()
+   at System.Data.SqlClient.SqlTransaction.Dispose(Boolean disposing)
+   at System.Data.Common.DbTransaction.Dispose()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTransaction.Dispose()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.ClearTransactions()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Dispose()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.Dispose()
+   at Microsoft.EntityFrameworkCore.DbContext.Dispose()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.Dispose()
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesFeature.Dispose()
+   at Microsoft.AspNetCore.Http.HttpResponse.<>c.<.cctor>b__30_1(Object disposable)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FireOnCompletedAwaited(Stack`1 onCompleted)
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1111.6305ms 302 
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (259ms) [Parameters=[@p8='?' (Size = 450), @p0='?' (Size = 4000), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000), @p4='?' (Size = 4000), @p5='?' (Size = 4000), @p6='?' (Size = -1), @p7='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SET NOCOUNT ON;
+      UPDATE [Lesson] SET [Actor] = @p0, [FileURLDowload] = @p1, [FileURLOnline] = @p2, [ImageURL] = @p3, [Name] = @p4, [Sumary] = @p5, [Transcript] = @p6, [Vocabulary] = @p7
+      WHERE [ID] = @p8;
+      SELECT @@ROWCOUNT;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (231ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (234ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [lesson].[ID], [lesson].[Actor], [lesson].[CreatedDate], [lesson].[FileURLDowload], [lesson].[FileURLOnline], [lesson].[IDTP], [lesson].[ImageURL], [lesson].[Name], [lesson].[Sumary], [lesson].[Transcript], [lesson].[UpdatedDate], [lesson].[Vocabulary], [lesson].[Year]
+      FROM [Lesson] AS [lesson]
+      WHERE [lesson].[IDTP] = N'6M'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2693.2455ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/HomePage.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/HomePage.cshtml executed in 4.4731ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) in 2711.0078ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 2725.6107ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/HomePage/EditLessonPage?lessonID=9fc0b745-19c6-44d3-8a4b-b0e4db3de1fd  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "EditLessonPage", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.EditLessonPage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.EditLessonPage (BBCWebAPI) with arguments (, , 9fc0b745-19c6-44d3-8a4b-b0e4db3de1fd) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (231ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (691ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [lesson].[ID], [lesson].[Actor], [lesson].[CreatedDate], [lesson].[FileURLDowload], [lesson].[FileURLOnline], [lesson].[IDTP], [lesson].[ImageURL], [lesson].[Name], [lesson].[Sumary], [lesson].[Transcript], [lesson].[UpdatedDate], [lesson].[Vocabulary], [lesson].[Year]
+      FROM [Lesson] AS [lesson]
+      WHERE [lesson].[IDTP] = N'6M'
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (232ms) [Parameters=[@__lessonID_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(2) [lesson].[ID], [lesson].[Actor], [lesson].[CreatedDate], [lesson].[FileURLDowload], [lesson].[FileURLOnline], [lesson].[IDTP], [lesson].[ImageURL], [lesson].[Name], [lesson].[Sumary], [lesson].[Transcript], [lesson].[UpdatedDate], [lesson].[Vocabulary], [lesson].[Year]
+      FROM [Lesson] AS [lesson]
+      WHERE [lesson].[ID] = @__lessonID_0
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.HomeController.EditLessonPage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1405.6475ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/EditLessonPage.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/EditLessonPage.cshtml executed in 5.407ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.EditLessonPage (BBCWebAPI) in 1429.1187ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1462.6461ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:4000/HomePage/EditLessonPage/UpdateLesson application/x-www-form-urlencoded 7308
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "UpdateLesson", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.UpdateLesson (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.UpdateLesson (BBCWebAPI) with arguments (The perfect Santa                                                                            , 2017, http://howtotrain.info/FileStorage/6M/2017/6m_2017_perfect_santa.mp3, https://www.dropbox.com/s/0dcpviciqg9nicc/6m_2017_man_flu.mp3?dl=1, http://howtotrain.info/FileStorage/6M/2017/6m_2017_perfect_santa.png, Note: This is not a word for word transcript
+      Neil
+      Hello and welcome to 6 Minute English. I'm Neil and joining me today is Dan who is looking very jolly. Dan
+      Of course I'm looking jolly - meaning happy and smiley; it's my favourite time of the year.
+      Neil
+      Ah yes, all that food, all those presents, all that fun. 
+      Dan
+      Forget the food and fun - Christmas is all about the presents!
+      Neil
+      I'm not sure that's quite the spirit - the real meaning of something
+      Dan
+      Well, Neil, I was actually talking about giving presents, not getting them.
+      Neil
+      Ah sorry, Dan, I misjudged you. As you enjoy giving presents so much, I'm very pleased to have you with me in this 6 Minute English - Our topic. What makes the perfect Santa? We'll have 6 items of vocabulary for you and, of course, our quiz question. Ready?
+      Dan
+      Hit me.
+      Neil
+      How many Santas are there in the world? a) 1,500, b) 15,000 or c) 15 million
+      Dan
+      I know there are a lot but 15 million must be wrong; 1,500 seems too few, so I'll g o for 15,000.
+      Neil
+      We'll see if you're right at the end of the programmer. Dan, you seem like a strong candidate for a job as Santa. Ever considered it?
+      Dan|I'd love to! A candidate is a person competing for a job.
+      Neil
+      And what do you think is a key part of being Santa - or Father Christmas as we also call him in the UK?
+      Dan
+      You've already mentioned being jolly.
+      Neil
+      I have. Let's listen to James Lovell, who runs a Santa school at his company Ministry of Fun in London. What does he say is the key?
+      James Lovell
+      A perfect 'ho ho ho!' is a key part of being a Father Christmas. It's a ho ho ho! And it needs to just reinforce the fact that you are the jolliest person on the planet. So I like to reach down into my tummy, tap it and with a big smile on my face g o ho ho hoooo! 
+      Neil 
+       The perfect ho ho ho! You need that to reinforce the fact you are the jolliest person in the world. 
+      Dan
+      To reinforce means to make something stronger. Ho ho ho! 
+      Neil
+      Wow, Dan! You're very convincing. Are you sure you've never done this before? 
+      Dan
+      I haven't but I want to. It feels good! Ho ho ho! 
+      Neil
+      I could be the ideal career move for you, Dan. But I bet it's not all fun. 
+      Dan
+      Hmm, maybe. I think there would be a lot of pressure to perform. Pressure is the feeling of worry you can get when you are expected to deal with a difficult situation. 
+      Neil
+      Yes, think of all the children you have to impress. Pressure indeed. Let's hear from James Lovell again, who runs a Santa school in London. 
+      James Lovell
+      Portraying Father Christmas is not an easy job because when you're dressed as Father Christmas, you have a huge responsibility to recreate the magic of the real Santa in every way. You need to look good, you need to have lots to say and you need to be incredibly jolly and you need to have magical eyes. 
+      Dan
+      So it seems I was right: portraying Father Christmas is not an easy job. Portraying meaning playing the part of - like an actor does. 
+      Neil
+      He says there's a huge responsibility to recreate the magic of the real Santa. To recreate means to make something exist again. 
+      Dan
+      All those kids expecting that magical moment - and it's all down to you as Santa! Hmm I'm beginning to have second thoughts about this career change.
+      Neil
+      Could you handle the pressure? 
+      Dan
+      I'm not sure I could! Portraying Father Christmas might be a challenge too far - despite my ho ho ho! 
+      Neil
+      Now it's time to find out the answer to our quiz question. I asked how many Santas there are in the world? a) 1,500, b) 15,000 or c) 15 million
+      Dan
+      I said b) 15,000
+      Neil
+      And you were. wrong! I'm afraid it was a trick question - there is, of course, only one Santa! 
+      Dan
+      Ahhh that's not fair! 
+      Neil
+      Sorry! Shall we have a recap of the vocabulary? 
+      Dan
+      Yes please - that would make me jolly again. 
+      Neil
+      Jolly, meaning happy and smiley. What makes you jolly, Dan? 
+      Dan
+      Christmas of course! Now Neil, I have to say, cheating me out of that quiz question was really not in the spirit of 6 Minute English. We are always nice to each other. 
+      Neil
+      Ah yes, you're probably right. Spirt here has the sense of something's real meaning. The spirit of 6 Minute English is friendly educational fun - not cheating your colleagues! 
+      Dan
+      Glad we've got that straight. Our next word is candidate. Until you made me think about how hard it is to be a good Santa, I thought I'd be a strong candidate for the job. 
+      Neil
+      A candidate is a person competing for a job. Next we had reinforce. 
+      Dan
+      Reinforce means to make something stronger. Repeating the vocabulary in 6 Minute English reinforces your ability to remember it! 
+      Neil
+      That's right - and it puts you under less pressure when you're speaking English if you have a good range of vocabulary. 
+      Dan
+      Pressure is the feeling of worry you can get when you are expected to deal with a difficult situation - like pretending to be Santa! Yes there's a lot of pressure involved in portraying someone else. 
+      Neil
+      Portraying, meaning playing the part of someone - like an actor does. It can be very difficult to get it right. 
+      Dan
+      Yep, it's a real skill to be able to recreate the look and character of another person. Recreate meaning to make something exist again. 
+      Neil
+      Well we'll try our best to recreate a positive learning experience for you all next time on 6 Minute English. Until then don't forget to check out our YouTube, Facebook, Twitter and Instagram pages. Goodbye! 
+      Dan
+      Goodbye!
+      , Neil,Dan,James Lovell, What qualities to you need to be the man who brings joy to millions of children around the world during the festive season?
+      Neil and Dan discuss what it takes to be the perfect Santa. You'll also learn six items of vocabulary.
+      , jolly: happy, smiley
+      spirit: something's real meaning
+      candidate: a person competing for a job
+      reinforce: make something stronger
+      pressure: the feeling of worry when a person gets when expected to deal with a difficult situation
+      portraying: playing the part of someone
+      , ) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (823ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [l].[ID], [l].[Actor], [l].[CreatedDate], [l].[FileURLDowload], [l].[FileURLOnline], [l].[IDTP], [l].[ImageURL], [l].[Name], [l].[Sumary], [l].[Transcript], [l].[UpdatedDate], [l].[Vocabulary], [l].[Year]
+      FROM [Lesson] AS [l]
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.HomeController.UpdateLesson (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 1067.8456ms.
+info: Microsoft.AspNetCore.Mvc.RedirectToActionResult[1]
+      Executing RedirectResult, redirecting to /HomePage.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.UpdateLesson (BBCWebAPI) in 1090.7375ms
+fail: Microsoft.AspNetCore.Server.Kestrel[13]
+      Connection id "0HLI5HTD2N0KU", Request id "0HLI5HTD2N0KU:00000006": An unhandled exception was thrown by the application.
+System.InvalidOperationException: The connection does not support MultipleActiveResultSets.
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlInternalTransaction.Rollback()
+   at System.Data.SqlClient.SqlTransaction.Dispose(Boolean disposing)
+   at System.Data.Common.DbTransaction.Dispose()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTransaction.Dispose()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.ClearTransactions()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Dispose()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.Dispose()
+   at Microsoft.EntityFrameworkCore.DbContext.Dispose()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.Dispose()
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesFeature.Dispose()
+   at Microsoft.AspNetCore.Http.HttpResponse.<>c.<.cctor>b__30_1(Object disposable)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FireOnCompletedAwaited(Stack`1 onCompleted)
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1121.7074ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/HomePage  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "HomePage", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) with arguments (, ) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (230ms) [Parameters=[@p1='?' (Size = 450), @p0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SET NOCOUNT ON;
+      UPDATE [Lesson] SET [Name] = @p0
+      WHERE [ID] = @p1;
+      SELECT @@ROWCOUNT;
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (231ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (463ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [lesson].[ID], [lesson].[Actor], [lesson].[CreatedDate], [lesson].[FileURLDowload], [lesson].[FileURLOnline], [lesson].[IDTP], [lesson].[ImageURL], [lesson].[Name], [lesson].[Sumary], [lesson].[Transcript], [lesson].[UpdatedDate], [lesson].[Vocabulary], [lesson].[Year]
+      FROM [Lesson] AS [lesson]
+      WHERE [lesson].[IDTP] = N'6M'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 3026.835ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/HomePage.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/HomePage.cshtml executed in 15.9367ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) in 3084.9905ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 3120.3087ms 200 text/html; charset=utf-8
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

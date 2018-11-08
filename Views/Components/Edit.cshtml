@@ -1,0 +1,87 @@
+﻿@using BBCWebAPI.Models;
+
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Edit</title>
+    <link rel="stylesheet" href="~/components/css/Edit.css">
+</head>
+
+<body>
+    <div>
+        <form action="/HomePage/EditLessonPage/UpdateLesson" method="post">
+            <div class="row">
+                <div class="col-md-6">
+                    <input type="hidden" asp-for="ID" />
+                    <div class="form-group">
+                        <label>Name Lesson</label><br />
+                        <textarea class="txtEdit" name="nameLesson">@ViewBag.lessonItem.Name</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Year</label><br />
+                        @*<input type="text" name="year" value=@ViewBag.lessonItem.Year />*@
+                        <textarea class="txtEdit" name="year">@ViewBag.lessonItem.Year</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>AudioURLOnline</label><br />
+                        @*<input type="text" name="audioURLOnline" value=@ViewBag.lessonItem.FileURLOnline>*@
+                        <textarea class="txtEdit" name="audioURLOnline">@ViewBag.lessonItem.FileURLOnline</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>AudioURLDowload</label><br />
+                        @*<input type="text" name="audioURLDowload" value=@ViewBag.lessonItem.FileURLDowload>*@
+                        <textarea class="txtEdit" name="audioURLDowload">@ViewBag.lessonItem.FileURLDowload</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>ImageURL</label><br />
+                        @*<input type="text" name="imageURL" value=@ViewBag.lessonItem.ImageURL>*@
+                        <textarea class="txtEdit" name="imageURL">@ViewBag.lessonItem.ImageURL</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Transcript</label><br />
+                        <textarea class="txtTranscript" name="transcript">@ViewBag.lessonItem.Transcript</textarea>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="form-group">
+                        <label>Actor</label><br />
+                        @*<input type="text" name="actor" value=@ViewBag.lessonItem.Actor />*@
+                        <textarea class="txtEdit" name="actor">@ViewBag.lessonItem.Actor</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Summary</label><br />
+                        @*<input type="text" name="summary" value=@ViewBag.lessonItem.Sumary />*@
+                        <textarea class="txtEdit" name="summary">@ViewBag.lessonItem.Sumary</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>Vocabulary</label><br />
+                        @*<input type="text" name="vocabulary" value=@ViewBag.lessonItem.Vocabulary />*@
+                        <textarea class="txtEdit" name="vocabulary">@ViewBag.lessonItem.Vocabulary</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>CreatedDate</label><br />
+                        @*<input type="datetime" name="createdDate" value=@ViewBag.lessonItem.CreatedDate />*@
+                        <textarea class="txtEdit" name="createdDate">@ViewBag.lessonItem.CreatedDate</textarea>
+                    </div>
+                    <div class="form-group">
+                        <label>UpdatedDate</label><br />
+                        @*<input type="text" name="updatedDate" value=@ViewBag.lessonItem.UpdatedDate />*@
+                        <textarea class="txtEdit" name="updatedDate">@ViewBag.lessonItem.UpdatedDate</textarea>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <input class="btnSave" type="submit" name="Save" value="Save" />
+            </div>
+            
+        </form>
+
+    </div>
+
+    <div>
+        <a asp-action="Index">Back to List</a>
+    </div>
+</body>
+
+</html>

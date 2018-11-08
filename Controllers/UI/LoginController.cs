@@ -20,7 +20,7 @@ namespace BBCWebAPI.Controllers.UI
         [Route("/")]
         public IActionResult ShowLoginPage()
         {
-            return View("Views/Login.cshtml");
+            return View("Views/Pages/Login.cshtml");
         }
         [HttpPost]
         [Route("/ActionLogin")]
