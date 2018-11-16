@@ -51,12 +51,12 @@ using BBCWebAPI.Models;
             WriteLiteral("\r\n<!DOCTYPE html>\r\n<html>\r\n\r\n");
             EndContext();
             BeginContext(55, 104, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "69c8d32075a34bdd8f51426151a094af", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "40466cc6b445474788c344af504e2e8e", async() => {
                 BeginContext(61, 31, true);
                 WriteLiteral("\r\n    <title>Edit</title>\r\n    ");
                 EndContext();
                 BeginContext(92, 58, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "8dc4bc7198484fe7942ae7db64b7b57b", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "0d69bc9f8c6b4597893396bf9481b560", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -90,7 +90,7 @@ using BBCWebAPI.Models;
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(163, 2691, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "544808a638044ef88768b434f8a07227", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "365b48995f2449a69582dbe344363086", async() => {
                 BeginContext(169, 253, true);
                 WriteLiteral("\r\n    <div>\r\n        <form  method=\"post\">\r\n            <input type=\"hidden\" asp-for=\"ID\" />\r\n            <div class=\"form-group\">\r\n                <label class=\"lbl\">Name Lesson</label><br />\r\n                <label class=\"lblDetail\" name=\"nameLesson\">");
                 EndContext();

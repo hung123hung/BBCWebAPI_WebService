@@ -13,9 +13,4 @@ by editing this MSBuild file. In order to learn more about this please visit htt
       <Value>Server=tcp:bbcservername.database.windows.net,1433%3bInitial Catalog=BBCLearningEnglish%3bPersist Security Info=False%3bUser ID=xuantruc%3bPassword=TrucDit113%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30</Value>
     </DestinationConnectionStrings>
   </ItemGroup>
-  <ItemGroup>
-    <EFMigrations Include="BBCWebAPI.Data.DataContext">
-      <Value>Server=tcp:bbcservername.database.windows.net,1433%3bInitial Catalog=BBCLearningEnglish%3bPersist Security Info=False%3bUser ID=xuantruc%3bPassword=TrucDit113%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30%3b</Value>
-    </EFMigrations>
-  </ItemGroup>
 </Project>

@@ -1,5 +1,4 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <sitemanifest>
   <IisApp path="D:\Xamarin\BBCWebAPI\BBCWebAPI\obj\Release\netcoreapp2.1\PubTmp\Out\" />
-  <dbfullsql path="D:\Xamarin\BBCWebAPI\BBCWebAPI\obj\Release\netcoreapp2.1\PubTmp\EFSQLScripts\BBCWebAPI.Data.DataContext.sql" />
 </sitemanifest>
