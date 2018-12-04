@@ -40,8 +40,7 @@
             <!-- Header Navbar -->
             <nav class="navbar navbar-static-top" role="navigation">
                 <!-- Sidebar toggle button-->
-                <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
-                    <span class="sr-only">Toggle navigation</span>
+                <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button" >
                 </a>
                 <!-- Navbar Right Menu -->
                 <div class="navbar-custom-menu">
@@ -126,7 +125,7 @@
                 @if (ViewBag.topicName != null)
                 {
                     <h1>Welcome to Topic about "@ViewBag.topicName" </h1>
-                    <i class="fa fa-link"></i>@Html.ActionLink("Create New", "ToCreateLessonPage", new { topicID = ViewBag.topicID, topicName = ViewBag.topicName })
+                    <i class="fa fa-link"></i>@Html.ActionLink("Create New Lesson", "ToCreateLessonPage", new { topicID = ViewBag.topicID, topicName = ViewBag.topicName })
                 }
                 else
                 {

@@ -58,12 +58,20 @@ namespace BBCWebAPI.Controllers.UI
         {
             try
             {
-                string answerID = (from ans in dataContext.Answers
-                                   select ans.AnswerID).Last().ToString();
+                List<string> _listAnswerID = (from ans in dataContext.Answers
+                                   select ans.AnswerID).ToList();
+                int answerID = 0;
+                foreach(var ans in _listAnswerID)
+                {
+                    if(Int32.Parse(ans.Trim().ToString())>answerID)
+                    {
+                        answerID = Int32.Parse(ans.Trim().ToString());
+                    }
+                }
                 var answer = dataContext.Answers.FirstOrDefault();
                 if (answer != null)
                 {
-                    answer.AnswerID = (Int32.Parse(answerID) + 1).ToString();
+                    answer.AnswerID = (answerID + 1).ToString();
                     answer.Content = content;
                     answer.Correct = correct;
                     answer.QuestionID = TempData["questionID"].ToString();

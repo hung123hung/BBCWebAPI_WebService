@@ -41,7 +41,6 @@
             <nav class="navbar navbar-static-top" role="navigation">
                 <!-- Sidebar toggle button-->
                 <a href="#" class="sidebar-toggle" data-toggle="push-menu" role="button">
-                    <span class="sr-only">Toggle navigation</span>
                 </a>
                 <!-- Navbar Right Menu -->
                 <div class="navbar-custom-menu">
@@ -124,7 +123,7 @@
             <!-- Content Header (Page header) -->
             <section class="content-header">
                     <h1>Welcome to lesson about "@ViewBag.lessonName" </h1>
-                    <i class="fa fa-link"></i>@Html.ActionLink("Create New", "ToCreateQuestionPage","Question", new { lessonID = ViewBag.lessonID, lessonName = ViewBag.lessonName })
+                    <i class="fa fa-link"></i>@Html.ActionLink("Create New Question", "ToCreateQuestionPage","Question", new { lessonID = ViewBag.lessonID, lessonName = ViewBag.lessonName })
             </section>
             <!-- Main content -->
             <section class="content container-fluid">

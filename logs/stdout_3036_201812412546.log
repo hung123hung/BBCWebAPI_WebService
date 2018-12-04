@@ -1,0 +1,1261 @@
+info: Microsoft.AspNetCore.DataProtection.KeyManagement.XmlKeyManager[0]
+      User profile is available. Using 'C:\Users\HP\AppData\Local\ASP.NET\DataProtection-Keys' as key repository and Windows DPAPI to encrypt keys at rest.
+Hosting environment: Development
+Content root path: D:\Xamarin\BBCWebAPI\BBCWebAPI
+Now listening on: http://127.0.0.1:33375
+Application started. Press Ctrl+C to shut down.
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 DEBUG http://localhost:4000/  0
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 110.1485ms 200 
+warn: Microsoft.AspNetCore.HttpsPolicy.HttpsRedirectionMiddleware[3]
+      Failed to determine the https port for redirect.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "ShowLoginPage", controller = "Login"}. Executing action BBCWebAPI.Controllers.UI.LoginController.ShowLoginPage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.LoginController.ShowLoginPage (BBCWebAPI) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.LoginController.ShowLoginPage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1.2504ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/Login.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/Login.cshtml executed in 239.3341ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.LoginController.ShowLoginPage (BBCWebAPI) in 857.792ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1778.7442ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/vendor/animate/animate.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/fonts/iconic/css/material-design-iconic-font.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/vendor/bootstrap/css/bootstrap.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/vendor/css-hamburgers/hamburgers.min.css  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/vendor/animate/animate.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\vendor\animate\animate.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 101.6592ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/vendor/animsition/css/animsition.min.css  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/fonts/font-awesome-4.7.0/css/font-awesome.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\fonts\font-awesome-4.7.0\css\font-awesome.min.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/fonts/iconic/css/material-design-iconic-font.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\fonts\iconic\css\material-design-iconic-font.min.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/vendor/bootstrap/css/bootstrap.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\vendor\bootstrap\css\bootstrap.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/vendor/select2/select2.min.css  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/vendor/css-hamburgers/hamburgers.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\vendor\css-hamburgers\hamburgers.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 443.2269ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 547.2007ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 512.0303ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/vendor/animsition/css/animsition.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\vendor\animsition\css\animsition.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/css/main.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/css/util.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 516.2583ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/vendor/jquery/jquery-3.2.1.min.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/css/main.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\css\main.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 678.7046ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 93.3333ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/vendor/animsition/js/animsition.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/vendor/daterangepicker/daterangepicker.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/vendor/bootstrap/js/popper.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/css/util.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\css\util.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/vendor/jquery/jquery-3.2.1.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\vendor\jquery\jquery-3.2.1.min.js'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/vendor/animsition/js/animsition.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\vendor\animsition\js\animsition.min.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 340.4847ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/vendor/daterangepicker/daterangepicker.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\vendor\daterangepicker\daterangepicker.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 322.0819ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/vendor/select2/select2.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 470.6933ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/vendor/bootstrap/js/bootstrap.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 440.088ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/vendor/daterangepicker/daterangepicker.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/vendor/select2/select2.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\vendor\select2\select2.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/vendor/daterangepicker/moment.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 818.1164ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/vendor/bootstrap/js/popper.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\vendor\bootstrap\js\popper.js'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/vendor/select2/select2.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\vendor\select2\select2.min.js'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/vendor/bootstrap/js/bootstrap.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\vendor\bootstrap\js\bootstrap.min.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/vendor/countdowntime/countdowntime.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 757.9649ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 813.6224ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 913.0151ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/vendor/daterangepicker/moment.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\vendor\daterangepicker\moment.min.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/fonts/poppins/Poppins-Medium.ttf  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/fonts/poppins/Poppins-Bold.ttf  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/fonts/poppins/Poppins-Regular.ttf  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 957.0225ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/vendor/daterangepicker/daterangepicker.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\vendor\daterangepicker\daterangepicker.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/fonts/poppins/Poppins-SemiBold.ttf  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1106.6052ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/images/logo.png  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/vendor/countdowntime/countdowntime.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\vendor\countdowntime\countdowntime.js'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/fonts/poppins/Poppins-Medium.ttf'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\fonts\poppins\Poppins-Medium.ttf'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/fonts/poppins/Poppins-Regular.ttf'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\fonts\poppins\Poppins-Regular.ttf'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 308.4528ms 200 application/x-font-ttf
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 834.0889ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/fonts/poppins/Poppins-SemiBold.ttf'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\fonts\poppins\Poppins-SemiBold.ttf'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/fonts/poppins/Poppins-Bold.ttf'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\fonts\poppins\Poppins-Bold.ttf'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 238.8ms 200 application/x-font-ttf
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 341.7602ms 200 application/x-font-ttf
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 210.3512ms 200 application/x-font-ttf
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/images/logo.png'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\images\logo.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 346.5154ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/js/main.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/js/main.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\js\main.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 38.3298ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:4000/ActionLogin application/x-www-form-urlencoded 27
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "ActionLogin", controller = "Login"}. Executing action BBCWebAPI.Controllers.UI.LoginController.ActionLogin (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.LoginController.ActionLogin (BBCWebAPI) with arguments (VanHung, 12345) - Validation state: Valid
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.LoginController.ActionLogin (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.RedirectResult in 1.2759ms.
+info: Microsoft.AspNetCore.Mvc.Infrastructure.RedirectResultExecutor[1]
+      Executing RedirectResult, redirecting to /HomePage.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.LoginController.ActionLogin (BBCWebAPI) in 94.6149ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 157.4472ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/HomePage  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "HomePage", controller = "Home"}. Executing action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) with arguments (, ) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (243ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (225ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [lesson].[ID], [lesson].[Actor], [lesson].[CreatedDate], [lesson].[FileURLDowload], [lesson].[FileURLOnline], [lesson].[IDTP], [lesson].[ImageURL], [lesson].[Name], [lesson].[Sumary], [lesson].[Transcript], [lesson].[UpdatedDate], [lesson].[Vocabulary], [lesson].[Year]
+      FROM [Lesson] AS [lesson]
+      WHERE [lesson].[IDTP] = N'6M'
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 2969.5941ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/HomePage.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/HomePage.cshtml executed in 244.7744ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.HomeController.HomePage (BBCWebAPI) in 3236.4891ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 3258.9245ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/css/skins/skin-blue.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/font-awesome/css/font-awesome.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/components/css/List.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/bootstrap/dist/css/bootstrap.min.css  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/css/skins/skin-blue.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\css\skins\skin-blue.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 50.4231ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/css/AdminLTE.min.css  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/components/css/List.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\components\css\List.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/Ionicons/css/ionicons.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 75.8201ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/Ionicons/css/ionicons.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\Ionicons\css\ionicons.min.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/font-awesome/css/font-awesome.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\font-awesome\css\font-awesome.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 36.264ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/css/AdminLTE.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\css\AdminLTE.min.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\bootstrap\dist\css\bootstrap.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 164.67ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 173.0616ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 116.6423ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/js/adminlte.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/jquery/dist/jquery.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/images/logo.png  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/components/images/details.png  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/bootstrap/dist/js/bootstrap.min.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/images/logo.png'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\images\logo.png'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/js/adminlte.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\js\adminlte.min.js'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/bootstrap/dist/js/bootstrap.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\bootstrap\dist\js\bootstrap.min.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 88.645ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 324.8119ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/components/images/details.png'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\components\images\details.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/components/images/question.png  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/jquery/dist/jquery.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\jquery\dist\jquery.min.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 148.6565ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 398.9596ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/components/images/delete.png  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/components/images/edit.png  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 330.1266ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/components/images/delete.png'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\components\images\delete.png'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\font-awesome\fonts\fontawesome-webfont.woff2'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 265.2964ms 200 font/woff2
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/components/images/question.png'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\components\images\question.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 225.8835ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 438.9718ms 200 image/png
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/components/images/edit.png'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\components\images\edit.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 327.404ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/favicon.ico  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 10.5091ms 404 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/HomePage/ListQuestionPage?lessonID=1b8218b4-6fa5-46f5-8096-4541cc1af039&lessonName=Should%20schoolchildren%20have%20jobs%3F%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "ToListQuestionPage", controller = "Question"}. Executing action BBCWebAPI.Controllers.UI.QuestionController.ToListQuestionPage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.QuestionController.ToListQuestionPage (BBCWebAPI) with arguments (1b8218b4-6fa5-46f5-8096-4541cc1af039, Should schoolchildren have jobs?                                                                    ) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (221ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (224ms) [Parameters=[@__lessonID_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT [question].[QuestionID], [question].[Content], [question].[LessonID], [question].[TypeQuestion]
+      FROM [Question] AS [question]
+      WHERE [question].[LessonID] = @__lessonID_0
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.QuestionController.ToListQuestionPage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 509.9633ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/List/ListQuestionPage.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/List/ListQuestionPage.cshtml executed in 246.495ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.QuestionController.ToListQuestionPage (BBCWebAPI) in 779.8358ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/bootstrap/dist/css/bootstrap.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/Ionicons/css/ionicons.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/css/AdminLTE.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/css/skins/skin-blue.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/font-awesome/css/font-awesome.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 904.8928ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/components/css/List.css  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\bootstrap\dist\css\bootstrap.min.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/Ionicons/css/ionicons.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\Ionicons\css\ionicons.min.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/components/css/List.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\components\css\List.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 150.6398ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/font-awesome/css/font-awesome.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\font-awesome\css\font-awesome.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 159.2305ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/jquery/dist/jquery.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/images/logo.png  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/css/AdminLTE.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\css\AdminLTE.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 207.4295ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/jquery/dist/jquery.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\jquery\dist\jquery.min.js'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/images/logo.png'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\images\logo.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/components/images/answer.png  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 345.1733ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/css/skins/skin-blue.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\css\skins\skin-blue.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 195.8829ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/components/images/edit.png  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/components/images/answer.png'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\components\images\answer.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 556.3748ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 355.6681ms 200 image/png
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/components/images/edit.png'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\components\images\edit.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 440.3963ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 765.6131ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\font-awesome\fonts\fontawesome-webfont.woff2'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/js/adminlte.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 201.5683ms 200 font/woff2
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/components/images/delete.png  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 940.7565ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/components/images/delete.png'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\components\images\delete.png'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/js/adminlte.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\js\adminlte.min.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/bootstrap/dist/js/bootstrap.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 86.383ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 71.8002ms 200 image/png
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/bootstrap/dist/js/bootstrap.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\bootstrap\dist\js\bootstrap.min.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 61.6823ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/HomePage/ListQuestionPage/CreateQuestionPage?lessonID=1b8218b4-6fa5-46f5-8096-4541cc1af039&lessonName=Should%20schoolchildren%20have%20jobs%3F%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "ToCreateQuestionPage", controller = "Question"}. Executing action BBCWebAPI.Controllers.UI.QuestionController.ToCreateQuestionPage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.QuestionController.ToCreateQuestionPage (BBCWebAPI) with arguments (1b8218b4-6fa5-46f5-8096-4541cc1af039, Should schoolchildren have jobs?                                                                    ) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (227ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.QuestionController.ToCreateQuestionPage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 247.9901ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/Creates/CreateQuestionPage.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/Creates/CreateQuestionPage.cshtml executed in 146.3436ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.QuestionController.ToCreateQuestionPage (BBCWebAPI) in 423.8315ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/bootstrap/dist/css/bootstrap.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/font-awesome/css/font-awesome.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/css/AdminLTE.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/Ionicons/css/ionicons.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/css/skins/skin-blue.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 486.7454ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\bootstrap\dist\css\bootstrap.min.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/Ionicons/css/ionicons.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\Ionicons\css\ionicons.min.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/css/AdminLTE.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\css\AdminLTE.min.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/css/skins/skin-blue.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\css\skins\skin-blue.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 186.2244ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 202.8578ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/images/logo.png  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/bootstrap/dist/js/bootstrap.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 225.4562ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/images/logo.png'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\images\logo.png'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/bootstrap/dist/js/bootstrap.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\bootstrap\dist\js\bootstrap.min.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 251.1467ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/font-awesome/css/font-awesome.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\font-awesome\css\font-awesome.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 104.5107ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 366.9691ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 630.965ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/js/adminlte.min.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\font-awesome\fonts\fontawesome-webfont.woff2'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 119.1789ms 200 font/woff2
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/jquery/dist/jquery.min.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/js/adminlte.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\js\adminlte.min.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 82.5491ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/components/css/Create.css  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/jquery/dist/jquery.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\jquery\dist\jquery.min.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 86.4339ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/components/css/Create.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\components\css\Create.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 64.866ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:4000/HomePage/ListQuestionPage/CreateQuestionPage/InsertQuestion application/x-www-form-urlencoded 28
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "InsertQuestion", controller = "Question"}. Executing action BBCWebAPI.Controllers.UI.QuestionController.InsertQuestion (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.QuestionController.InsertQuestion (BBCWebAPI) with arguments (hihi, TL) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+warn: Microsoft.EntityFrameworkCore.Query[10103]
+      Query: '(from Question qs in DbSet<Question> select [qs].QuestionID).Last()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'Last()' could not be translated and will be evaluated locally.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (222ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [qs].[QuestionID]
+      FROM [Question] AS [qs]
+warn: Microsoft.EntityFrameworkCore.Query[10103]
+      Query: '(from Question <generated>_1 in DbSet<Question> select [<generated>_1]).FirstOrDefault()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (234ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [q].[QuestionID], [q].[Content], [q].[LessonID], [q].[TypeQuestion]
+      FROM [Question] AS [q]
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.QuestionController.InsertQuestion (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 927.297ms.
+info: Microsoft.AspNetCore.Mvc.RedirectToActionResult[1]
+      Executing RedirectResult, redirecting to /HomePage/ListQuestionPage?lessonID=1b8218b4-6fa5-46f5-8096-4541cc1af039&lessonName=Should%20schoolchildren%20have%20jobs%3F%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.QuestionController.InsertQuestion (BBCWebAPI) in 942.6068ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/HomePage/ListQuestionPage?lessonID=1b8218b4-6fa5-46f5-8096-4541cc1af039&lessonName=Should%20schoolchildren%20have%20jobs%3F%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "ToListQuestionPage", controller = "Question"}. Executing action BBCWebAPI.Controllers.UI.QuestionController.ToListQuestionPage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.QuestionController.ToListQuestionPage (BBCWebAPI) with arguments (1b8218b4-6fa5-46f5-8096-4541cc1af039, Should schoolchildren have jobs?                                                                    ) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+fail: Microsoft.AspNetCore.Server.Kestrel[13]
+      Connection id "0HLIPS3DJH9NL", Request id "0HLIPS3DJH9NL:0000000B": An unhandled exception was thrown by the application.
+System.InvalidOperationException: The connection does not support MultipleActiveResultSets.
+   at System.Data.SqlClient.SqlInternalConnectionTds.ValidateConnectionForExecute(SqlCommand command)
+   at System.Data.SqlClient.SqlInternalTransaction.Rollback()
+   at System.Data.SqlClient.SqlTransaction.Dispose(Boolean disposing)
+   at System.Data.Common.DbTransaction.Dispose()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalTransaction.Dispose()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.ClearTransactions()
+   at Microsoft.EntityFrameworkCore.Storage.RelationalConnection.Dispose()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.Dispose()
+   at Microsoft.EntityFrameworkCore.DbContext.Dispose()
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.Dispose()
+   at Microsoft.AspNetCore.Hosting.Internal.RequestServicesFeature.Dispose()
+   at Microsoft.AspNetCore.Http.HttpResponse.<>c.<.cctor>b__30_1(Object disposable)
+   at Microsoft.AspNetCore.Server.Kestrel.Core.Internal.Http.HttpProtocol.FireOnCompletedAwaited(Stack`1 onCompleted)
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1108.3106ms 302 
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (255ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SET NOCOUNT ON;
+      INSERT INTO [Question] ([QuestionID], [Content], [LessonID], [TypeQuestion])
+      VALUES (@p0, @p1, @p2, @p3);
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (230ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (232ms) [Parameters=[@__lessonID_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT [question].[QuestionID], [question].[Content], [question].[LessonID], [question].[TypeQuestion]
+      FROM [Question] AS [question]
+      WHERE [question].[LessonID] = @__lessonID_0
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.QuestionController.ToListQuestionPage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 1923.5488ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/List/ListQuestionPage.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/List/ListQuestionPage.cshtml executed in 9.0698ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.QuestionController.ToListQuestionPage (BBCWebAPI) in 1957.5209ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1978.6644ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/Ionicons/css/ionicons.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/bootstrap/dist/css/bootstrap.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/css/skins/skin-blue.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/font-awesome/css/font-awesome.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/css/AdminLTE.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/components/css/List.css  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/components/css/List.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\components\css\List.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/Ionicons/css/ionicons.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\Ionicons\css\ionicons.min.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\bootstrap\dist\css\bootstrap.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 156.6725ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/css/skins/skin-blue.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\css\skins\skin-blue.min.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/font-awesome/css/font-awesome.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\font-awesome\css\font-awesome.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/js/adminlte.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 217.9172ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 230.1157ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/jquery/dist/jquery.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/components/images/answer.png  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/jquery/dist/jquery.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\jquery\dist\jquery.min.js'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/js/adminlte.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\js\adminlte.min.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 274.491ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/components/images/answer.png'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\components\images\answer.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 89.6828ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 132.157ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 170.3489ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/components/images/edit.png  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/components/images/delete.png  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/images/logo.png  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 431.5966ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/components/images/edit.png'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\components\images\edit.png'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/images/logo.png'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\images\logo.png'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/components/images/delete.png'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\components\images\delete.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/bootstrap/dist/js/bootstrap.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 98.1496ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 98.0391ms 200 image/png
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/css/AdminLTE.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\css\AdminLTE.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 533.4615ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 135.3439ms 200 image/png
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/bootstrap/dist/js/bootstrap.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\bootstrap\dist\js\bootstrap.min.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 105.794ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\font-awesome\fonts\fontawesome-webfont.woff2'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 56.8204ms 200 font/woff2
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/HomePage/ListQuestionPage/DeleteQuestion?questionID=5  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "DeleteQuestion", controller = "Question"}. Executing action BBCWebAPI.Controllers.UI.QuestionController.DeleteQuestion (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.QuestionController.DeleteQuestion (BBCWebAPI) with arguments (5) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (232ms) [Parameters=[@__questionID_0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(2) [question].[QuestionID], [question].[Content], [question].[LessonID], [question].[TypeQuestion]
+      FROM [Question] AS [question]
+      WHERE [question].[QuestionID] = @__questionID_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (230ms) [Parameters=[@__questionID_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT [answer].[AnswerID], [answer].[Content], [answer].[Correct], [answer].[QuestionID]
+      FROM [Answer] AS [answer]
+      WHERE [answer].[QuestionID] = @__questionID_0
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (250ms) [Parameters=[@p0='?' (Size = 450)], CommandType='Text', CommandTimeout='30']
+      SET NOCOUNT ON;
+      DELETE FROM [Question]
+      WHERE [QuestionID] = @p0;
+      SELECT @@ROWCOUNT;
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.QuestionController.DeleteQuestion (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.RedirectToActionResult in 1251.5395ms.
+info: Microsoft.AspNetCore.Mvc.RedirectToActionResult[1]
+      Executing RedirectResult, redirecting to /HomePage/ListQuestionPage?lessonID=1b8218b4-6fa5-46f5-8096-4541cc1af039&lessonName=Should%20schoolchildren%20have%20jobs%3F%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.QuestionController.DeleteQuestion (BBCWebAPI) in 1263.6682ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 1290.2109ms 302 
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/HomePage/ListQuestionPage?lessonID=1b8218b4-6fa5-46f5-8096-4541cc1af039&lessonName=Should%20schoolchildren%20have%20jobs%3F%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "ToListQuestionPage", controller = "Question"}. Executing action BBCWebAPI.Controllers.UI.QuestionController.ToListQuestionPage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.QuestionController.ToListQuestionPage (BBCWebAPI) with arguments (1b8218b4-6fa5-46f5-8096-4541cc1af039, Should schoolchildren have jobs?                                                                    ) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (230ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (230ms) [Parameters=[@__lessonID_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT [question].[QuestionID], [question].[Content], [question].[LessonID], [question].[TypeQuestion]
+      FROM [Question] AS [question]
+      WHERE [question].[LessonID] = @__lessonID_0
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.QuestionController.ToListQuestionPage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 495.5525ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/List/ListQuestionPage.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/List/ListQuestionPage.cshtml executed in 6.1961ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.QuestionController.ToListQuestionPage (BBCWebAPI) in 529.0151ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/bootstrap/dist/css/bootstrap.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/Ionicons/css/ionicons.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/css/AdminLTE.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 587.1899ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/css/skins/skin-blue.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/font-awesome/css/font-awesome.min.css  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/Ionicons/css/ionicons.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\Ionicons\css\ionicons.min.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/css/skins/skin-blue.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\css\skins\skin-blue.min.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\bootstrap\dist\css\bootstrap.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/components/css/List.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 90.2416ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/font-awesome/css/font-awesome.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\font-awesome\css\font-awesome.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 120.5497ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/components/css/List.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\components\css\List.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 161.1436ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 155.4409ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/bootstrap/dist/js/bootstrap.min.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/css/AdminLTE.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\css\AdminLTE.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/images/logo.png  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/jquery/dist/jquery.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 213.2413ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/images/logo.png'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\images\logo.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/components/images/answer.png  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 251.2936ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/components/images/delete.png  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/components/images/answer.png'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\components\images\answer.png'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/jquery/dist/jquery.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\jquery\dist\jquery.min.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/js/adminlte.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 512.665ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 271.0507ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 195.956ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/components/images/delete.png'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\components\images\delete.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 88.1832ms 200 image/png
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/js/adminlte.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\js\adminlte.min.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/components/images/edit.png  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\font-awesome\fonts\fontawesome-webfont.woff2'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 220.7195ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 212.7499ms 200 font/woff2
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/components/images/edit.png'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\components\images\edit.png'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/bootstrap/dist/js/bootstrap.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\bootstrap\dist\js\bootstrap.min.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 165.4586ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 651.1396ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/HomePage/ListQuestionPage/ListAnswerPage?questionID=1&contentQuestion=What%27s%20your%20name%3F  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "ToListAnswerPage", controller = "Answer"}. Executing action BBCWebAPI.Controllers.UI.AnswerController.ToListAnswerPage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.AnswerController.ToListAnswerPage (BBCWebAPI) with arguments (1, What's your name?) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (230ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (236ms) [Parameters=[@__questionID_0='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SELECT [answer].[AnswerID], [answer].[Content], [answer].[Correct], [answer].[QuestionID]
+      FROM [Answer] AS [answer]
+      WHERE [answer].[QuestionID] = @__questionID_0
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.AnswerController.ToListAnswerPage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 498.106ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/List/ListAnswerPage.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/List/ListAnswerPage.cshtml executed in 150.6509ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.AnswerController.ToListAnswerPage (BBCWebAPI) in 661.216ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 692.6297ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/font-awesome/css/font-awesome.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/Ionicons/css/ionicons.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/components/css/List.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/bootstrap/dist/css/bootstrap.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/css/skins/skin-blue.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/css/AdminLTE.min.css  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/css/skins/skin-blue.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\css\skins\skin-blue.min.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/font-awesome/css/font-awesome.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\font-awesome\css\font-awesome.min.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/Ionicons/css/ionicons.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\Ionicons\css\ionicons.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 38.0634ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/components/css/List.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\components\css\List.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 77.0459ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 103.4721ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/images/logo.png  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/jquery/dist/jquery.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/bootstrap/dist/js/bootstrap.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 175.0806ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/images/logo.png'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\images\logo.png'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/jquery/dist/jquery.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\jquery\dist\jquery.min.js'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/bootstrap/dist/js/bootstrap.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\bootstrap\dist\js\bootstrap.min.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 82.3134ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 105.817ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 61.5238ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/components/images/delete.png  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/components/images/edit.png  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/js/adminlte.min.js  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/components/images/edit.png'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\components\images\edit.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 66.4091ms 200 image/png
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/components/images/delete.png'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\components\images\delete.png'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/js/adminlte.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\js\adminlte.min.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 104.7492ms 200 image/png
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 95.9479ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/css/AdminLTE.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\css\AdminLTE.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 404.7201ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\bootstrap\dist\css\bootstrap.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 427.9918ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\font-awesome\fonts\fontawesome-webfont.woff2'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 76.2253ms 200 font/woff2
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/HomePage/ListQuestionPage/ListAnswerPage/CreateAnswerPage?questionID=1&contentQuestion=What%27s%20your%20name%3F  
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "ToCreateAnswerPage", controller = "Answer"}. Executing action BBCWebAPI.Controllers.UI.AnswerController.ToCreateAnswerPage (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.AnswerController.ToCreateAnswerPage (BBCWebAPI) with arguments (1, What's your name?) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (230ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [t].[ID], [t].[Name]
+      FROM [Topic] AS [t]
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action method BBCWebAPI.Controllers.UI.AnswerController.ToCreateAnswerPage (BBCWebAPI), returned result Microsoft.AspNetCore.Mvc.ViewResult in 276.9086ms.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[1]
+      Executing ViewResult, running view Views/Pages/Creates/CreateAnswerPage.cshtml.
+info: Microsoft.AspNetCore.Mvc.ViewFeatures.ViewResultExecutor[4]
+      Executed ViewResult - view Views/Pages/Creates/CreateAnswerPage.cshtml executed in 112.6191ms.
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[2]
+      Executed action BBCWebAPI.Controllers.UI.AnswerController.ToCreateAnswerPage (BBCWebAPI) in 418.4092ms
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 483.1845ms 200 text/html; charset=utf-8
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/css/AdminLTE.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/bootstrap/dist/css/bootstrap.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/Ionicons/css/ionicons.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/font-awesome/css/font-awesome.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/css/skins/skin-blue.min.css  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/components/css/Create.css  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/Ionicons/css/ionicons.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\Ionicons\css\ionicons.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 99.8648ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/login/images/logo.png  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/css/AdminLTE.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\css\AdminLTE.min.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/font-awesome/css/font-awesome.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\font-awesome\css\font-awesome.min.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/components/css/Create.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\components\css\Create.css'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/css/skins/skin-blue.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\css\skins\skin-blue.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 179.7836ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/js/adminlte.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 196.6469ms 200 text/css
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/login/images/logo.png'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\login\images\logo.png'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/jquery/dist/jquery.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 211.1123ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 115.7305ms 200 image/png
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/js/adminlte.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\js\adminlte.min.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/bootstrap/dist/js/bootstrap.min.js  
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 56.9846ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/bootstrap/dist/js/bootstrap.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\bootstrap\dist\js\bootstrap.min.js'
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/jquery/dist/jquery.min.js'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\jquery\dist\jquery.min.js'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 99.1065ms 200 application/javascript
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 145.9396ms 200 application/javascript
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/bootstrap/dist/css/bootstrap.min.css'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\bootstrap\dist\css\bootstrap.min.css'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 448.4669ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 441.6ms 200 text/css
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 GET http://localhost:4000/homepage/bower_components/font-awesome/fonts/fontawesome-webfont.woff2?v=4.7.0  
+info: Microsoft.AspNetCore.StaticFiles.StaticFileMiddleware[2]
+      Sending file. Request path: '/homepage/bower_components/font-awesome/fonts/fontawesome-webfont.woff2'. Physical path: 'D:\Xamarin\BBCWebAPI\BBCWebAPI\wwwroot\homepage\bower_components\font-awesome\fonts\fontawesome-webfont.woff2'
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[2]
+      Request finished in 48.0396ms 200 font/woff2
+info: Microsoft.AspNetCore.Hosting.Internal.WebHost[1]
+      Request starting HTTP/1.1 POST http://localhost:4000/HomePage/ListQuestionPage/ListAnswerPage/InsertAnswer application/x-www-form-urlencoded 25
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Route matched with {action = "InsertAnswer", controller = "Answer"}. Executing action BBCWebAPI.Controllers.UI.AnswerController.InsertAnswer (BBCWebAPI)
+info: Microsoft.AspNetCore.Mvc.Internal.ControllerActionInvoker[1]
+      Executing action method BBCWebAPI.Controllers.UI.AnswerController.InsertAnswer (BBCWebAPI) with arguments (Truc, hihi) - Validation state: Valid
+info: Microsoft.EntityFrameworkCore.Infrastructure[10403]
+      Entity Framework Core 2.1.4-rtm-31024 initialized 'DataContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: None
+warn: Microsoft.EntityFrameworkCore.Query[10103]
+      Query: '(from Answer ans in DbSet<Answer> select [ans].AnswerID).Last()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+warn: Microsoft.EntityFrameworkCore.Query[20500]
+      The LINQ expression 'Last()' could not be translated and will be evaluated locally.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (231ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT [ans].[AnswerID]
+      FROM [Answer] AS [ans]
+warn: Microsoft.EntityFrameworkCore.Query[10103]
+      Query: '(from Answer <generated>_1 in DbSet<Answer> select [<generated>_1]).FirstOrDefault()' uses First/FirstOrDefault/Last/LastOrDefault operation without OrderBy and filter which may lead to unpredictable results.
+info: Microsoft.EntityFrameworkCore.Database.Command[20101]
+      Executed DbCommand (230ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+      SELECT TOP(1) [a].[AnswerID], [a].[Content], [a].[Correct], [a].[QuestionID]
+      FROM [Answer] AS [a]
+fail: Microsoft.EntityFrameworkCore.Database.Command[20102]
+      Failed executing DbCommand (232ms) [Parameters=[@p0='?' (Size = 450), @p1='?' (Size = 4000), @p2='?' (Size = 4000), @p3='?' (Size = 4000)], CommandType='Text', CommandTimeout='30']
+      SET NOCOUNT ON;
+      INSERT INTO [Answer] ([AnswerID], [Content], [Correct], [QuestionID])
+      VALUES (@p0, @p1, @p2, @p3);
+System.Data.SqlClient.SqlException (0x80131904): Violation of PRIMARY KEY constraint 'PK__ANSWER__D482502465632DB5'. Cannot insert duplicate key in object 'dbo.ANSWER'. The duplicate key value is (10                                                                                                  ).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+ClientConnectionId:9376eda0-b608-4c17-8d37-7dde3eb2475e
+Error Number:2627,State:1,Class:14
+fail: Microsoft.EntityFrameworkCore.Update[10000]
+      An exception occurred in the database while saving changes for context type 'BBCWebAPI.Data.DataContext'.
+      Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK__ANSWER__D482502465632DB5'. Cannot insert duplicate key in object 'dbo.ANSWER'. The duplicate key value is (10                                                                                                  ).
+      The statement has been terminated.
+         at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+         at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+         at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+         at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+         at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+         at System.Data.SqlClient.SqlDataReader.get_MetaData()
+         at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+         at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+         at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+         at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+         at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+         at System.Data.Common.DbCommand.ExecuteReader()
+         at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+         at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+         --- End of inner exception stack trace ---
+         at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+         at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+         at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+         at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+         at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+         at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+Microsoft.EntityFrameworkCore.DbUpdateException: An error occurred while updating the entries. See the inner exception for details. ---> System.Data.SqlClient.SqlException: Violation of PRIMARY KEY constraint 'PK__ANSWER__D482502465632DB5'. Cannot insert duplicate key in object 'dbo.ANSWER'. The duplicate key value is (10                                                                                                  ).
+The statement has been terminated.
+   at System.Data.SqlClient.SqlConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.SqlInternalConnection.OnError(SqlException exception, Boolean breakConnection, Action`1 wrapCloseInAction)
+   at System.Data.SqlClient.TdsParser.ThrowExceptionAndWarning(TdsParserStateObject stateObj, Boolean callerHasConnectionLock, Boolean asyncClose)
+   at System.Data.SqlClient.TdsParser.TryRun(RunBehavior runBehavior, SqlCommand cmdHandler, SqlDataReader dataStream, BulkCopySimpleResultSet bulkCopyHandler, TdsParserStateObject stateObj, Boolean& dataReady)
+   at System.Data.SqlClient.SqlDataReader.TryConsumeMetaData()
+   at System.Data.SqlClient.SqlDataReader.get_MetaData()
+   at System.Data.SqlClient.SqlCommand.FinishExecuteReader(SqlDataReader ds, RunBehavior runBehavior, String resetOptionsString)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReaderTds(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, Boolean async, Int32 timeout, Task& task, Boolean asyncWrite, SqlDataReader ds)
+   at System.Data.SqlClient.SqlCommand.RunExecuteReader(CommandBehavior cmdBehavior, RunBehavior runBehavior, Boolean returnStream, TaskCompletionSource`1 completion, Int32 timeout, Task& task, Boolean asyncWrite, String method)
+   at System.Data.SqlClient.SqlCommand.ExecuteReader(CommandBehavior behavior)
+   at System.Data.SqlClient.SqlCommand.ExecuteDbDataReader(CommandBehavior behavior)
+   at System.Data.Common.DbCommand.ExecuteReader()
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.Execute(IRelationalConnection connection, DbCommandMethod executeMethod, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Storage.Internal.RelationalCommand.ExecuteReader(IRelationalConnection connection, IReadOnlyDictionary`2 parameterValues)
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   --- End of inner exception stack trace ---
+   at Microsoft.EntityFrameworkCore.Update.ReaderModificationCommandBatch.Execute(IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(DbContext _, ValueTuple`2 parameters)
+   at Microsoft.EntityFrameworkCore.SqlServer.Storage.Internal.SqlServerExecutionStrategy.Execute[TState,TResult](TState state, Func`3 operation, Func`3 verifySucceeded)
+   at Microsoft.EntityFrameworkCore.Update.Internal.BatchExecutor.Execute(IEnumerable`1 commandBatches, IRelationalConnection connection)
+   at Microsoft.EntityFrameworkCore.Storage.RelationalDatabase.SaveChanges(IReadOnlyList`1 entries)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(IReadOnlyList`1 entriesToSave)
+   at Microsoft.EntityFrameworkCore.ChangeTracking.Internal.StateManager.SaveChanges(Boolean acceptAllChangesOnSuccess)
+   at Microsoft.EntityFrameworkCore.DbContext.SaveChanges(Boolean acceptAllChangesOnSuccess)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
