@@ -52,12 +52,12 @@ using BBCWebAPI.Models;
             WriteLiteral("\r\n<!DOCTYPE html>\r\n<html>\r\n\r\n");
             EndContext();
             BeginContext(55, 205, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "bd7718ce53e14ab09e4f0e3cdb6b897e", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("head", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c873bb42af93496aa61756ace99c9048", async() => {
                 BeginContext(61, 31, true);
                 WriteLiteral("\r\n    <title>Edit</title>\r\n    ");
                 EndContext();
                 BeginContext(92, 95, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "ed7a67f812f54082812efe5b90ceb4c8", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "8971f30ddcd14978a1adc853d78b26c0", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -76,7 +76,7 @@ using BBCWebAPI.Models;
                 WriteLiteral("\r\n    ");
                 EndContext();
                 BeginContext(193, 58, false);
-                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "36c3e8f34cc14502814f389a39ee7502", async() => {
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("link", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagOnly, "2f592247795e4d758de6ed8b1aab4d44", async() => {
                 }
                 );
                 __Microsoft_AspNetCore_Mvc_Razor_TagHelpers_UrlResolutionTagHelper = CreateTagHelper<global::Microsoft.AspNetCore.Mvc.Razor.TagHelpers.UrlResolutionTagHelper>();
@@ -110,7 +110,7 @@ using BBCWebAPI.Models;
             WriteLiteral("\r\n\r\n");
             EndContext();
             BeginContext(264, 2691, false);
-            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "4c759ebd3c6e40e29f9bcd1073815ab2", async() => {
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("body", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "62aa145faca54d2cab32556a79d522a8", async() => {
                 BeginContext(270, 253, true);
                 WriteLiteral("\r\n    <div>\r\n        <form  method=\"post\">\r\n            <input type=\"hidden\" asp-for=\"ID\" />\r\n            <div class=\"form-group\">\r\n                <label class=\"lbl\">Name Lesson</label><br />\r\n                <label class=\"lblDetail\" name=\"nameLesson\">");
                 EndContext();

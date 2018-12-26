@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <EncryptedPassword>AQAAANCMnd8BFdERjHoAwE/Cl+sBAAAALShkloLe0UGEG4sRUnejcgAAAAACAAAAAAAQZgAAAAEAACAAAADO1GG8fl54GCe6h59UZbP4z81IzmZPNiQGEV411okLYgAAAAAOgAAAAAIAACAAAACNyGZi8M9D66vtHjK1S17sUHBG8QtE0q3ZGx3gRIEhZ4AAAAAjru2ZV2uBXvSP6ykeE4p8sg/zuqSp6CN9vHLxdE89Ck7BVC/osYwMerViSl7pFg0LD2tMfeFY+9Q5gQYw6aUTP3ldPWq1s9O7ggUGy0PFp9OxSHAr5jXE0B4JMukgAehweklf0h/6E1I6vKk0QnTXsK5BsoQsx9zsyqogiqJBaUAAAAARdsDVqAJj73m1T+tktJScm8F00gF6gd/FBOb4X3UG7em60KPxiVg9SIpMIhXHklHluV4yUXLMED3ZwWcbZqpB</EncryptedPassword>
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnection">
+      <Value>Server=tcp:bbclearningserver.database.windows.net,1433%3bInitial Catalog=bbc%3bPersist Security Info=False%3bUser ID=xuantruc%3bPassword=TrucDit113%3bMultipleActiveResultSets=False%3bEncrypt=True%3bTrustServerCertificate=False%3bConnection Timeout=30</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>
